@@ -1,0 +1,4308 @@
+{
+ "source": "level2",
+ "game_version": "1.1.10.29",
+ "sha256": "1587d8d23abc134fab1730f5966156945aba68f5cfac962c66461da6908ddf11",
+ "unity": "6000.0.58f2",
+ "extracted": "2026-09-29",
+ "proxy": "UI OVERLAY CAM/END OF DAY | HISTORY/Generic Arrays nStuff/Floorplan Textures",
+ "field": "preFillTextureList",
+ "slots": 600,
+ "blank_index": 166,
+ "grid": {
+  "source": "UI OVERLAY CAM/END OF DAY | HISTORY/House History Only/NEW GRID",
+  "ranks": 9,
+  "columns": 5,
+  "slots": [
+   {
+    "slot": 0,
+    "tile": "OUTER ROOM",
+    "rank": null,
+    "column": null
+   },
+   {
+    "slot": 1,
+    "tile": "Map Tile 1",
+    "rank": 1,
+    "column": 1
+   },
+   {
+    "slot": 2,
+    "tile": "Map Tile 2",
+    "rank": 1,
+    "column": 2
+   },
+   {
+    "slot": 3,
+    "tile": "Map Tile 3",
+    "rank": 1,
+    "column": 3
+   },
+   {
+    "slot": 4,
+    "tile": "Map Tile 4",
+    "rank": 1,
+    "column": 4
+   },
+   {
+    "slot": 5,
+    "tile": "Map Tile 5",
+    "rank": 1,
+    "column": 5
+   },
+   {
+    "slot": 6,
+    "tile": "Map Tile 6",
+    "rank": 2,
+    "column": 1
+   },
+   {
+    "slot": 7,
+    "tile": "Map Tile 7",
+    "rank": 2,
+    "column": 2
+   },
+   {
+    "slot": 8,
+    "tile": "Map Tile 8",
+    "rank": 2,
+    "column": 3
+   },
+   {
+    "slot": 9,
+    "tile": "Map Tile 9",
+    "rank": 2,
+    "column": 4
+   },
+   {
+    "slot": 10,
+    "tile": "Map Tile 10",
+    "rank": 2,
+    "column": 5
+   },
+   {
+    "slot": 11,
+    "tile": "Map Tile 11",
+    "rank": 3,
+    "column": 1
+   },
+   {
+    "slot": 12,
+    "tile": "Map Tile 12",
+    "rank": 3,
+    "column": 2
+   },
+   {
+    "slot": 13,
+    "tile": "Map Tile 13",
+    "rank": 3,
+    "column": 3
+   },
+   {
+    "slot": 14,
+    "tile": "Map Tile 14",
+    "rank": 3,
+    "column": 4
+   },
+   {
+    "slot": 15,
+    "tile": "Map Tile 15",
+    "rank": 3,
+    "column": 5
+   },
+   {
+    "slot": 16,
+    "tile": "Map Tile 16",
+    "rank": 4,
+    "column": 1
+   },
+   {
+    "slot": 17,
+    "tile": "Map Tile 17",
+    "rank": 4,
+    "column": 2
+   },
+   {
+    "slot": 18,
+    "tile": "Map Tile 18",
+    "rank": 4,
+    "column": 3
+   },
+   {
+    "slot": 19,
+    "tile": "Map Tile 19",
+    "rank": 4,
+    "column": 4
+   },
+   {
+    "slot": 20,
+    "tile": "Map Tile 20",
+    "rank": 4,
+    "column": 5
+   },
+   {
+    "slot": 21,
+    "tile": "Map Tile 21",
+    "rank": 5,
+    "column": 1
+   },
+   {
+    "slot": 22,
+    "tile": "Map Tile 22",
+    "rank": 5,
+    "column": 2
+   },
+   {
+    "slot": 23,
+    "tile": "Map Tile 23",
+    "rank": 5,
+    "column": 3
+   },
+   {
+    "slot": 24,
+    "tile": "Map Tile 24",
+    "rank": 5,
+    "column": 4
+   },
+   {
+    "slot": 25,
+    "tile": "Map Tile 25",
+    "rank": 5,
+    "column": 5
+   },
+   {
+    "slot": 26,
+    "tile": "Map Tile 26",
+    "rank": 6,
+    "column": 1
+   },
+   {
+    "slot": 27,
+    "tile": "Map Tile 27",
+    "rank": 6,
+    "column": 2
+   },
+   {
+    "slot": 28,
+    "tile": "Map Tile 28",
+    "rank": 6,
+    "column": 3
+   },
+   {
+    "slot": 29,
+    "tile": "Map Tile 29",
+    "rank": 6,
+    "column": 4
+   },
+   {
+    "slot": 30,
+    "tile": "Map Tile 30",
+    "rank": 6,
+    "column": 5
+   },
+   {
+    "slot": 31,
+    "tile": "Map Tile 31",
+    "rank": 7,
+    "column": 1
+   },
+   {
+    "slot": 32,
+    "tile": "Map Tile 32",
+    "rank": 7,
+    "column": 2
+   },
+   {
+    "slot": 33,
+    "tile": "Map Tile 33",
+    "rank": 7,
+    "column": 3
+   },
+   {
+    "slot": 34,
+    "tile": "Map Tile 34",
+    "rank": 7,
+    "column": 4
+   },
+   {
+    "slot": 35,
+    "tile": "Map Tile 35",
+    "rank": 7,
+    "column": 5
+   },
+   {
+    "slot": 36,
+    "tile": "Map Tile 36",
+    "rank": 8,
+    "column": 1
+   },
+   {
+    "slot": 37,
+    "tile": "Map Tile 37",
+    "rank": 8,
+    "column": 2
+   },
+   {
+    "slot": 38,
+    "tile": "Map Tile 38",
+    "rank": 8,
+    "column": 3
+   },
+   {
+    "slot": 39,
+    "tile": "Map Tile 39",
+    "rank": 8,
+    "column": 4
+   },
+   {
+    "slot": 40,
+    "tile": "Map Tile 40",
+    "rank": 8,
+    "column": 5
+   },
+   {
+    "slot": 41,
+    "tile": "Map Tile 41",
+    "rank": 9,
+    "column": 1
+   },
+   {
+    "slot": 42,
+    "tile": "Map Tile 42",
+    "rank": 9,
+    "column": 2
+   },
+   {
+    "slot": 43,
+    "tile": "Map Tile 43",
+    "rank": 9,
+    "column": 3
+   },
+   {
+    "slot": 44,
+    "tile": "Map Tile 44",
+    "rank": 9,
+    "column": 4
+   },
+   {
+    "slot": 45,
+    "tile": "Map Tile 45",
+    "rank": 9,
+    "column": 5
+   }
+  ]
+ },
+ "entries": [
+  {
+   "index": 0,
+   "texture": "antechamber",
+   "room": "antechamber",
+   "orientation": null,
+   "name": "Antechamber"
+  },
+  {
+   "index": 1,
+   "texture": "aquarium-e",
+   "room": "aquarium",
+   "orientation": "east",
+   "name": "Aquarium"
+  },
+  {
+   "index": 2,
+   "texture": "aquarium-n",
+   "room": "aquarium",
+   "orientation": "north",
+   "name": "Aquarium"
+  },
+  {
+   "index": 3,
+   "texture": "aquarium-s",
+   "room": "aquarium",
+   "orientation": "south",
+   "name": "Aquarium"
+  },
+  {
+   "index": 4,
+   "texture": "aquarium-w",
+   "room": "aquarium",
+   "orientation": "west",
+   "name": "Aquarium"
+  },
+  {
+   "index": 5,
+   "texture": "archives-4",
+   "room": "archives",
+   "orientation": "any",
+   "name": "Archives"
+  },
+  {
+   "index": 6,
+   "texture": "archivetile",
+   "room": "archivetile",
+   "orientation": null,
+   "name": null
+  },
+  {
+   "index": 7,
+   "texture": "attic-e",
+   "room": "attic",
+   "orientation": "east",
+   "name": "Attic"
+  },
+  {
+   "index": 8,
+   "texture": "attic-n",
+   "room": "attic",
+   "orientation": "north",
+   "name": "Attic"
+  },
+  {
+   "index": 9,
+   "texture": "attic-s",
+   "room": "attic",
+   "orientation": "south",
+   "name": "Attic"
+  },
+  {
+   "index": 10,
+   "texture": "attic-w",
+   "room": "attic",
+   "orientation": "west",
+   "name": "Attic"
+  },
+  {
+   "index": 11,
+   "texture": "ballroom-e",
+   "room": "ballroom",
+   "orientation": "east",
+   "name": "Ballroom"
+  },
+  {
+   "index": 12,
+   "texture": "ballroom-n",
+   "room": "ballroom",
+   "orientation": "north",
+   "name": "Ballroom"
+  },
+  {
+   "index": 15,
+   "texture": "bedroom-e",
+   "room": "bedroom",
+   "orientation": "east",
+   "name": "Bedroom"
+  },
+  {
+   "index": 16,
+   "texture": "bedroom-n",
+   "room": "bedroom",
+   "orientation": "north",
+   "name": "Bedroom"
+  },
+  {
+   "index": 17,
+   "texture": "bedroom-s",
+   "room": "bedroom",
+   "orientation": "south",
+   "name": "Bedroom"
+  },
+  {
+   "index": 18,
+   "texture": "bedroom-w",
+   "room": "bedroom",
+   "orientation": "west",
+   "name": "Bedroom"
+  },
+  {
+   "index": 19,
+   "texture": "billiardroom-e",
+   "room": "billiardroom",
+   "orientation": "east",
+   "name": "Billiard Room"
+  },
+  {
+   "index": 20,
+   "texture": "billiardroom-n",
+   "room": "billiardroom",
+   "orientation": "north",
+   "name": "Billiard Room"
+  },
+  {
+   "index": 21,
+   "texture": "billiardroom-s",
+   "room": "billiardroom",
+   "orientation": "south",
+   "name": "Billiard Room"
+  },
+  {
+   "index": 22,
+   "texture": "billiardroom-w",
+   "room": "billiardroom",
+   "orientation": "west",
+   "name": "Billiard Room"
+  },
+  {
+   "index": 23,
+   "texture": "boilerroom-e",
+   "room": "boilerroom",
+   "orientation": "east",
+   "name": "Boiler Room"
+  },
+  {
+   "index": 24,
+   "texture": "boilerroom-n",
+   "room": "boilerroom",
+   "orientation": "north",
+   "name": "Boiler Room"
+  },
+  {
+   "index": 25,
+   "texture": "boilerroom-s",
+   "room": "boilerroom",
+   "orientation": "south",
+   "name": "Boiler Room"
+  },
+  {
+   "index": 26,
+   "texture": "boilerroom-w",
+   "room": "boilerroom",
+   "orientation": "west",
+   "name": "Boiler Room"
+  },
+  {
+   "index": 27,
+   "texture": "boudoir-e",
+   "room": "boudoir",
+   "orientation": "east",
+   "name": "Boudoir"
+  },
+  {
+   "index": 28,
+   "texture": "boudoir-n",
+   "room": "boudoir",
+   "orientation": "north",
+   "name": "Boudoir"
+  },
+  {
+   "index": 29,
+   "texture": "boudoir-s",
+   "room": "boudoir",
+   "orientation": "south",
+   "name": "Boudoir"
+  },
+  {
+   "index": 30,
+   "texture": "boudoir-w",
+   "room": "boudoir",
+   "orientation": "west",
+   "name": "Boudoir"
+  },
+  {
+   "index": 31,
+   "texture": "boudoir-obs-e",
+   "room": "boudoir-obs",
+   "orientation": "east",
+   "name": "Boudoir"
+  },
+  {
+   "index": 32,
+   "texture": "boudoir-obs-n",
+   "room": "boudoir-obs",
+   "orientation": "north",
+   "name": "Boudoir"
+  },
+  {
+   "index": 33,
+   "texture": "boudoir-obs-s",
+   "room": "boudoir-obs",
+   "orientation": "south",
+   "name": "Boudoir"
+  },
+  {
+   "index": 34,
+   "texture": "boudoir-obs-w",
+   "room": "boudoir-obs",
+   "orientation": "west",
+   "name": "Boudoir"
+  },
+  {
+   "index": 35,
+   "texture": "boudoir-par-e",
+   "room": "boudoir-par",
+   "orientation": "east",
+   "name": "Boudoir"
+  },
+  {
+   "index": 36,
+   "texture": "boudoir-par-n",
+   "room": "boudoir-par",
+   "orientation": "north",
+   "name": "Boudoir"
+  },
+  {
+   "index": 37,
+   "texture": "boudoir-par-s",
+   "room": "boudoir-par",
+   "orientation": "south",
+   "name": "Boudoir"
+  },
+  {
+   "index": 38,
+   "texture": "boudoir-par-w",
+   "room": "boudoir-par",
+   "orientation": "west",
+   "name": "Boudoir"
+  },
+  {
+   "index": 39,
+   "texture": "boudoir-walk-e",
+   "room": "boudoir-walk",
+   "orientation": "east",
+   "name": "Boudoir"
+  },
+  {
+   "index": 40,
+   "texture": "boudoir-walk-n",
+   "room": "boudoir-walk",
+   "orientation": "north",
+   "name": "Boudoir"
+  },
+  {
+   "index": 41,
+   "texture": "boudoir-walk-s",
+   "room": "boudoir-walk",
+   "orientation": "south",
+   "name": "Boudoir"
+  },
+  {
+   "index": 42,
+   "texture": "boudoir-walk-w",
+   "room": "boudoir-walk",
+   "orientation": "west",
+   "name": "Boudoir"
+  },
+  {
+   "index": 43,
+   "texture": "bunkroom-e",
+   "room": "bunkroom",
+   "orientation": "east",
+   "name": "Bunk Room"
+  },
+  {
+   "index": 44,
+   "texture": "bunkroom-n",
+   "room": "bunkroom",
+   "orientation": "north",
+   "name": "Bunk Room"
+  },
+  {
+   "index": 45,
+   "texture": "bunkroom-s",
+   "room": "bunkroom",
+   "orientation": "south",
+   "name": "Bunk Room"
+  },
+  {
+   "index": 46,
+   "texture": "bunkroom-w",
+   "room": "bunkroom",
+   "orientation": "west",
+   "name": "Bunk Room"
+  },
+  {
+   "index": 47,
+   "texture": "bunkroom-gems-e",
+   "room": "bunkroom-gems",
+   "orientation": "east",
+   "name": "Bunk Room"
+  },
+  {
+   "index": 48,
+   "texture": "bunkroom-gems-n",
+   "room": "bunkroom-gems",
+   "orientation": "north",
+   "name": "Bunk Room"
+  },
+  {
+   "index": 49,
+   "texture": "bunkroom-gems-s",
+   "room": "bunkroom-gems",
+   "orientation": "south",
+   "name": "Bunk Room"
+  },
+  {
+   "index": 50,
+   "texture": "bunkroom-gems-w",
+   "room": "bunkroom-gems",
+   "orientation": "west",
+   "name": "Bunk Room"
+  },
+  {
+   "index": 51,
+   "texture": "bunkroom-gold-e",
+   "room": "bunkroom-gold",
+   "orientation": "east",
+   "name": "Bunk Room"
+  },
+  {
+   "index": 52,
+   "texture": "bunkroom-gold-n",
+   "room": "bunkroom-gold",
+   "orientation": "north",
+   "name": "Bunk Room"
+  },
+  {
+   "index": 53,
+   "texture": "bunkroom-gold-s",
+   "room": "bunkroom-gold",
+   "orientation": "south",
+   "name": "Bunk Room"
+  },
+  {
+   "index": 54,
+   "texture": "bunkroom-gold-w",
+   "room": "bunkroom-gold",
+   "orientation": "west",
+   "name": "Bunk Room"
+  },
+  {
+   "index": 55,
+   "texture": "bunkroom-keys-e",
+   "room": "bunkroom-keys",
+   "orientation": "east",
+   "name": "Bunk Room"
+  },
+  {
+   "index": 56,
+   "texture": "bunkroom-keys-n",
+   "room": "bunkroom-keys",
+   "orientation": "north",
+   "name": "Bunk Room"
+  },
+  {
+   "index": 57,
+   "texture": "bunkroom-keys-s",
+   "room": "bunkroom-keys",
+   "orientation": "south",
+   "name": "Bunk Room"
+  },
+  {
+   "index": 58,
+   "texture": "bunkroom-keys-w",
+   "room": "bunkroom-keys",
+   "orientation": "west",
+   "name": "Bunk Room"
+  },
+  {
+   "index": 59,
+   "texture": "casino-ne",
+   "room": "casino",
+   "orientation": "north-east",
+   "name": "Casino"
+  },
+  {
+   "index": 60,
+   "texture": "casino-nw",
+   "room": "casino",
+   "orientation": "north-west",
+   "name": "Casino"
+  },
+  {
+   "index": 61,
+   "texture": "casino-se",
+   "room": "casino",
+   "orientation": "south-east",
+   "name": "Casino"
+  },
+  {
+   "index": 62,
+   "texture": "casino-sw",
+   "room": "casino",
+   "orientation": "south-west",
+   "name": "Casino"
+  },
+  {
+   "index": 63,
+   "texture": "chamberofmirrors-4",
+   "room": "chamberofmirrors",
+   "orientation": "any",
+   "name": "Chamber of Mirrors"
+  },
+  {
+   "index": 64,
+   "texture": "chamberofmirrors-e",
+   "room": "chamberofmirrors",
+   "orientation": "east",
+   "name": "Chamber of Mirrors"
+  },
+  {
+   "index": 65,
+   "texture": "chamberofmirrors-s",
+   "room": "chamberofmirrors",
+   "orientation": "south",
+   "name": "Chamber of Mirrors"
+  },
+  {
+   "index": 66,
+   "texture": "chamberofmirrors-w",
+   "room": "chamberofmirrors",
+   "orientation": "west",
+   "name": "Chamber of Mirrors"
+  },
+  {
+   "index": 67,
+   "texture": "chapel-e",
+   "room": "chapel",
+   "orientation": "east",
+   "name": "Chapel"
+  },
+  {
+   "index": 68,
+   "texture": "chapel-n",
+   "room": "chapel",
+   "orientation": "north",
+   "name": "Chapel"
+  },
+  {
+   "index": 69,
+   "texture": "chapel-s",
+   "room": "chapel",
+   "orientation": "south",
+   "name": "Chapel"
+  },
+  {
+   "index": 70,
+   "texture": "chapel-w",
+   "room": "chapel",
+   "orientation": "west",
+   "name": "Chapel"
+  },
+  {
+   "index": 71,
+   "texture": "classroom-e",
+   "room": "classroom",
+   "orientation": "east",
+   "name": "Classroom"
+  },
+  {
+   "index": 72,
+   "texture": "classroom-n",
+   "room": "classroom",
+   "orientation": "north",
+   "name": "Classroom"
+  },
+  {
+   "index": 73,
+   "texture": "classroom-s",
+   "room": "classroom",
+   "orientation": "south",
+   "name": "Classroom"
+  },
+  {
+   "index": 74,
+   "texture": "classroom-w",
+   "room": "classroom",
+   "orientation": "west",
+   "name": "Classroom"
+  },
+  {
+   "index": 75,
+   "texture": "clocktower-e",
+   "room": "clocktower",
+   "orientation": "east",
+   "name": "Clock Tower"
+  },
+  {
+   "index": 76,
+   "texture": "clocktower-n",
+   "room": "clocktower",
+   "orientation": "north",
+   "name": "Clock Tower"
+  },
+  {
+   "index": 77,
+   "texture": "clocktower-s",
+   "room": "clocktower",
+   "orientation": "south",
+   "name": "Clock Tower"
+  },
+  {
+   "index": 78,
+   "texture": "clocktower-w",
+   "room": "clocktower",
+   "orientation": "west",
+   "name": "Clock Tower"
+  },
+  {
+   "index": 79,
+   "texture": "cloister-4",
+   "room": "cloister",
+   "orientation": "any",
+   "name": "Cloister"
+  },
+  {
+   "index": 80,
+   "texture": "closedexhibit-e",
+   "room": "closedexhibit",
+   "orientation": "east",
+   "name": "Closed Exhibit"
+  },
+  {
+   "index": 81,
+   "texture": "closedexhibit-n",
+   "room": "closedexhibit",
+   "orientation": "north",
+   "name": "Closed Exhibit"
+  },
+  {
+   "index": 82,
+   "texture": "closedexhibit-s",
+   "room": "closedexhibit",
+   "orientation": "south",
+   "name": "Closed Exhibit"
+  },
+  {
+   "index": 83,
+   "texture": "closedexhibit-w",
+   "room": "closedexhibit",
+   "orientation": "west",
+   "name": "Closed Exhibit"
+  },
+  {
+   "index": 84,
+   "texture": "closet-bed-e",
+   "room": "closet-bed",
+   "orientation": "east",
+   "name": "Closet"
+  },
+  {
+   "index": 85,
+   "texture": "closet-bed-n",
+   "room": "closet-bed",
+   "orientation": "north",
+   "name": "Closet"
+  },
+  {
+   "index": 86,
+   "texture": "closet-bed-s",
+   "room": "closet-bed",
+   "orientation": "south",
+   "name": "Closet"
+  },
+  {
+   "index": 87,
+   "texture": "closet-bed-w",
+   "room": "closet-bed",
+   "orientation": "west",
+   "name": "Closet"
+  },
+  {
+   "index": 88,
+   "texture": "closet-e",
+   "room": "closet",
+   "orientation": "east",
+   "name": "Closet"
+  },
+  {
+   "index": 89,
+   "texture": "closet-empty-e",
+   "room": "closet-empty",
+   "orientation": "east",
+   "name": "Closet"
+  },
+  {
+   "index": 90,
+   "texture": "closet-empty-n",
+   "room": "closet-empty",
+   "orientation": "north",
+   "name": "Closet"
+  },
+  {
+   "index": 91,
+   "texture": "closet-empty-s",
+   "room": "closet-empty",
+   "orientation": "south",
+   "name": "Closet"
+  },
+  {
+   "index": 92,
+   "texture": "closet-empty-w",
+   "room": "closet-empty",
+   "orientation": "west",
+   "name": "Closet"
+  },
+  {
+   "index": 93,
+   "texture": "closet-hall-e",
+   "room": "closet-hall",
+   "orientation": "east",
+   "name": "Closet"
+  },
+  {
+   "index": 94,
+   "texture": "closet-hall-n",
+   "room": "closet-hall",
+   "orientation": "north",
+   "name": "Closet"
+  },
+  {
+   "index": 95,
+   "texture": "closet-hall-s",
+   "room": "closet-hall",
+   "orientation": "south",
+   "name": "Closet"
+  },
+  {
+   "index": 96,
+   "texture": "closet-hall-w",
+   "room": "closet-hall",
+   "orientation": "west",
+   "name": "Closet"
+  },
+  {
+   "index": 97,
+   "texture": "closet-n",
+   "room": "closet",
+   "orientation": "north",
+   "name": "Closet"
+  },
+  {
+   "index": 98,
+   "texture": "closet-s",
+   "room": "closet",
+   "orientation": "south",
+   "name": "Closet"
+  },
+  {
+   "index": 99,
+   "texture": "closet-w",
+   "room": "closet",
+   "orientation": "west",
+   "name": "Closet"
+  },
+  {
+   "index": 100,
+   "texture": "coatcheck-e",
+   "room": "coatcheck",
+   "orientation": "east",
+   "name": "Coat Check"
+  },
+  {
+   "index": 101,
+   "texture": "coatcheck-n",
+   "room": "coatcheck",
+   "orientation": "north",
+   "name": "Coat Check"
+  },
+  {
+   "index": 102,
+   "texture": "coatcheck-s",
+   "room": "coatcheck",
+   "orientation": "south",
+   "name": "Coat Check"
+  },
+  {
+   "index": 103,
+   "texture": "coatcheck-w",
+   "room": "coatcheck",
+   "orientation": "west",
+   "name": "Coat Check"
+  },
+  {
+   "index": 104,
+   "texture": "commissary-e",
+   "room": "commissary",
+   "orientation": "east",
+   "name": "Commissary"
+  },
+  {
+   "index": 105,
+   "texture": "commissary-n",
+   "room": "commissary",
+   "orientation": "north",
+   "name": "Commissary"
+  },
+  {
+   "index": 106,
+   "texture": "commissary-s",
+   "room": "commissary",
+   "orientation": "south",
+   "name": "Commissary"
+  },
+  {
+   "index": 107,
+   "texture": "commissary-w",
+   "room": "commissary",
+   "orientation": "west",
+   "name": "Commissary"
+  },
+  {
+   "index": 108,
+   "texture": "conferenceroom-e",
+   "room": "conferenceroom",
+   "orientation": "east",
+   "name": "Conference Room"
+  },
+  {
+   "index": 109,
+   "texture": "conferenceroom-n",
+   "room": "conferenceroom",
+   "orientation": "north",
+   "name": "Conference Room"
+  },
+  {
+   "index": 110,
+   "texture": "conferenceroom-s",
+   "room": "conferenceroom",
+   "orientation": "south",
+   "name": "Conference Room"
+  },
+  {
+   "index": 111,
+   "texture": "conferenceroom-w",
+   "room": "conferenceroom",
+   "orientation": "west",
+   "name": "Conference Room"
+  },
+  {
+   "index": 112,
+   "texture": "conservatory-e",
+   "room": "conservatory",
+   "orientation": "east",
+   "name": "Conservatory"
+  },
+  {
+   "index": 113,
+   "texture": "conservatory-n",
+   "room": "conservatory",
+   "orientation": "north",
+   "name": "Conservatory"
+  },
+  {
+   "index": 114,
+   "texture": "conservatory-s",
+   "room": "conservatory",
+   "orientation": "south",
+   "name": "Conservatory"
+  },
+  {
+   "index": 115,
+   "texture": "conservatory-w",
+   "room": "conservatory",
+   "orientation": "west",
+   "name": "Conservatory"
+  },
+  {
+   "index": 116,
+   "texture": "corridor-ew",
+   "room": "corridor",
+   "orientation": "east-west",
+   "name": "Corridor"
+  },
+  {
+   "index": 117,
+   "texture": "corridor-ns",
+   "room": "corridor",
+   "orientation": "north-south",
+   "name": "Corridor"
+  },
+  {
+   "index": 118,
+   "texture": "corriyard-e",
+   "room": "corriyard",
+   "orientation": "east",
+   "name": "Corriyard"
+  },
+  {
+   "index": 119,
+   "texture": "corriyard-n",
+   "room": "corriyard",
+   "orientation": "north",
+   "name": "Corriyard"
+  },
+  {
+   "index": 120,
+   "texture": "corriyard-s",
+   "room": "corriyard",
+   "orientation": "south",
+   "name": "Corriyard"
+  },
+  {
+   "index": 121,
+   "texture": "corriyard-w",
+   "room": "corriyard",
+   "orientation": "west",
+   "name": "Corriyard"
+  },
+  {
+   "index": 122,
+   "texture": "courtyard-digs-e",
+   "room": "courtyard-digs",
+   "orientation": "east",
+   "name": "Courtyard"
+  },
+  {
+   "index": 123,
+   "texture": "courtyard-digs-n",
+   "room": "courtyard-digs",
+   "orientation": "north",
+   "name": "Courtyard"
+  },
+  {
+   "index": 124,
+   "texture": "courtyard-digs-s",
+   "room": "courtyard-digs",
+   "orientation": "south",
+   "name": "Courtyard"
+  },
+  {
+   "index": 125,
+   "texture": "courtyard-digs-w",
+   "room": "courtyard-digs",
+   "orientation": "west",
+   "name": "Courtyard"
+  },
+  {
+   "index": 126,
+   "texture": "courtyard-e",
+   "room": "courtyard",
+   "orientation": "east",
+   "name": "Courtyard"
+  },
+  {
+   "index": 127,
+   "texture": "courtyard-gems-e",
+   "room": "courtyard-gems",
+   "orientation": "east",
+   "name": "Courtyard"
+  },
+  {
+   "index": 128,
+   "texture": "courtyard-gems-n",
+   "room": "courtyard-gems",
+   "orientation": "north",
+   "name": "Courtyard"
+  },
+  {
+   "index": 129,
+   "texture": "courtyard-gems-s",
+   "room": "courtyard-gems",
+   "orientation": "south",
+   "name": "Courtyard"
+  },
+  {
+   "index": 130,
+   "texture": "courtyard-gems-w",
+   "room": "courtyard-gems",
+   "orientation": "west",
+   "name": "Courtyard"
+  },
+  {
+   "index": 131,
+   "texture": "courtyard-n",
+   "room": "courtyard",
+   "orientation": "north",
+   "name": "Courtyard"
+  },
+  {
+   "index": 132,
+   "texture": "courtyard-s",
+   "room": "courtyard",
+   "orientation": "south",
+   "name": "Courtyard"
+  },
+  {
+   "index": 133,
+   "texture": "courtyard-w",
+   "room": "courtyard",
+   "orientation": "west",
+   "name": "Courtyard"
+  },
+  {
+   "index": 134,
+   "texture": "darkroom-e",
+   "room": "darkroom",
+   "orientation": "east",
+   "name": "Darkroom"
+  },
+  {
+   "index": 135,
+   "texture": "darkroom-n",
+   "room": "darkroom",
+   "orientation": "north",
+   "name": "Darkroom"
+  },
+  {
+   "index": 136,
+   "texture": "darkroom-s",
+   "room": "darkroom",
+   "orientation": "south",
+   "name": "Darkroom"
+  },
+  {
+   "index": 137,
+   "texture": "darkroom-w",
+   "room": "darkroom",
+   "orientation": "west",
+   "name": "Darkroom"
+  },
+  {
+   "index": 138,
+   "texture": "den-e",
+   "room": "den",
+   "orientation": "east",
+   "name": "Den"
+  },
+  {
+   "index": 139,
+   "texture": "den-n",
+   "room": "den",
+   "orientation": "north",
+   "name": "Den"
+  },
+  {
+   "index": 140,
+   "texture": "den-s",
+   "room": "den",
+   "orientation": "south",
+   "name": "Den"
+  },
+  {
+   "index": 141,
+   "texture": "den-w",
+   "room": "den",
+   "orientation": "west",
+   "name": "Den"
+  },
+  {
+   "index": 142,
+   "texture": "diningroom-e",
+   "room": "diningroom",
+   "orientation": "east",
+   "name": "Dining Room"
+  },
+  {
+   "index": 143,
+   "texture": "diningroom-n",
+   "room": "diningroom",
+   "orientation": "north",
+   "name": "Dining Room"
+  },
+  {
+   "index": 144,
+   "texture": "diningroom-s",
+   "room": "diningroom",
+   "orientation": "south",
+   "name": "Dining Room"
+  },
+  {
+   "index": 145,
+   "texture": "diningroom-w",
+   "room": "diningroom",
+   "orientation": "west",
+   "name": "Dining Room"
+  },
+  {
+   "index": 146,
+   "texture": "dormitory-e",
+   "room": "dormitory",
+   "orientation": "east",
+   "name": "Dormitory"
+  },
+  {
+   "index": 147,
+   "texture": "dormitory-n",
+   "room": "dormitory",
+   "orientation": "north",
+   "name": "Dormitory"
+  },
+  {
+   "index": 148,
+   "texture": "dormitory-s",
+   "room": "dormitory",
+   "orientation": "south",
+   "name": "Dormitory"
+  },
+  {
+   "index": 149,
+   "texture": "dormitory-w",
+   "room": "dormitory",
+   "orientation": "west",
+   "name": "Dormitory"
+  },
+  {
+   "index": 150,
+   "texture": "dovecote-e",
+   "room": "dovecote",
+   "orientation": "east",
+   "name": "Dovecote"
+  },
+  {
+   "index": 151,
+   "texture": "dovecote-n",
+   "room": "dovecote",
+   "orientation": "north",
+   "name": "Dovecote"
+  },
+  {
+   "index": 152,
+   "texture": "dovecote-s",
+   "room": "dovecote",
+   "orientation": "south",
+   "name": "Dovecote"
+  },
+  {
+   "index": 153,
+   "texture": "dovecote-w",
+   "room": "dovecote",
+   "orientation": "west",
+   "name": "Dovecote"
+  },
+  {
+   "index": 154,
+   "texture": "draftingstudio-e",
+   "room": "draftingstudio",
+   "orientation": "east",
+   "name": "Drafting Studio"
+  },
+  {
+   "index": 155,
+   "texture": "draftingstudio-n",
+   "room": "draftingstudio",
+   "orientation": "north",
+   "name": "Drafting Studio"
+  },
+  {
+   "index": 156,
+   "texture": "draftingstudio-s",
+   "room": "draftingstudio",
+   "orientation": "south",
+   "name": "Drafting Studio"
+  },
+  {
+   "index": 157,
+   "texture": "draftingstudio-w",
+   "room": "draftingstudio",
+   "orientation": "west",
+   "name": "Drafting Studio"
+  },
+  {
+   "index": 158,
+   "texture": "drawingroom-e",
+   "room": "drawingroom",
+   "orientation": "east",
+   "name": "Drawing Room"
+  },
+  {
+   "index": 159,
+   "texture": "drawingroom-n",
+   "room": "drawingroom",
+   "orientation": "north",
+   "name": "Drawing Room"
+  },
+  {
+   "index": 160,
+   "texture": "drawingroom-s",
+   "room": "drawingroom",
+   "orientation": "south",
+   "name": "Drawing Room"
+  },
+  {
+   "index": 161,
+   "texture": "drawingroom-w",
+   "room": "drawingroom",
+   "orientation": "west",
+   "name": "Drawing Room"
+  },
+  {
+   "index": 162,
+   "texture": "eastwinghall-e",
+   "room": "eastwinghall",
+   "orientation": "east",
+   "name": "East Wing Hall"
+  },
+  {
+   "index": 163,
+   "texture": "eastwinghall-n",
+   "room": "eastwinghall",
+   "orientation": "north",
+   "name": "East Wing Hall"
+  },
+  {
+   "index": 164,
+   "texture": "eastwinghall-s",
+   "room": "eastwinghall",
+   "orientation": "south",
+   "name": "East Wing Hall"
+  },
+  {
+   "index": 165,
+   "texture": "eastwinghall-w",
+   "room": "eastwinghall",
+   "orientation": "west",
+   "name": "East Wing Hall"
+  },
+  {
+   "index": 166,
+   "texture": "emptyfloorplan",
+   "room": "emptyfloorplan",
+   "orientation": null,
+   "name": null
+  },
+  {
+   "index": 167,
+   "texture": "entrancehall-4",
+   "room": "entrancehall",
+   "orientation": "any",
+   "name": "Entrance Hall"
+  },
+  {
+   "index": 168,
+   "texture": "foyer-ew",
+   "room": "foyer",
+   "orientation": "east-west",
+   "name": "Foyer"
+  },
+  {
+   "index": 169,
+   "texture": "foyer-ns",
+   "room": "foyer",
+   "orientation": "north-south",
+   "name": "Foyer"
+  },
+  {
+   "index": 170,
+   "texture": "freezer-e",
+   "room": "freezer",
+   "orientation": "east",
+   "name": "Freezer"
+  },
+  {
+   "index": 171,
+   "texture": "freezer-n",
+   "room": "freezer",
+   "orientation": "north",
+   "name": "Freezer"
+  },
+  {
+   "index": 172,
+   "texture": "freezer-s",
+   "room": "freezer",
+   "orientation": "south",
+   "name": "Freezer"
+  },
+  {
+   "index": 173,
+   "texture": "freezer-w",
+   "room": "freezer",
+   "orientation": "west",
+   "name": "Freezer"
+  },
+  {
+   "index": 174,
+   "texture": "furnace-e",
+   "room": "furnace",
+   "orientation": "east",
+   "name": "Furnace"
+  },
+  {
+   "index": 175,
+   "texture": "furnace-n",
+   "room": "furnace",
+   "orientation": "north",
+   "name": "Furnace"
+  },
+  {
+   "index": 176,
+   "texture": "furnace-s",
+   "room": "furnace",
+   "orientation": "south",
+   "name": "Furnace"
+  },
+  {
+   "index": 177,
+   "texture": "furnace-w",
+   "room": "furnace",
+   "orientation": "west",
+   "name": "Furnace"
+  },
+  {
+   "index": 178,
+   "texture": "gallery-e",
+   "room": "gallery",
+   "orientation": "east",
+   "name": "Gallery"
+  },
+  {
+   "index": 179,
+   "texture": "gallery-n",
+   "room": "gallery",
+   "orientation": "north",
+   "name": "Gallery"
+  },
+  {
+   "index": 180,
+   "texture": "garage-e",
+   "room": "garage",
+   "orientation": "east",
+   "name": "Garage"
+  },
+  {
+   "index": 181,
+   "texture": "garage-n",
+   "room": "garage",
+   "orientation": "north",
+   "name": "Garage"
+  },
+  {
+   "index": 182,
+   "texture": "garage-pierce-n",
+   "room": "garage-pierce",
+   "orientation": "north",
+   "name": "Garage"
+  },
+  {
+   "index": 183,
+   "texture": "garage-pierce-w",
+   "room": "garage-pierce",
+   "orientation": "west",
+   "name": "Garage"
+  },
+  {
+   "index": 184,
+   "texture": "garage-s",
+   "room": "garage",
+   "orientation": "south",
+   "name": "Garage"
+  },
+  {
+   "index": 185,
+   "texture": "garage-w",
+   "room": "garage",
+   "orientation": "west",
+   "name": "Garage"
+  },
+  {
+   "index": 186,
+   "texture": "giftshop-e",
+   "room": "giftshop",
+   "orientation": "east",
+   "name": "Gift Shop"
+  },
+  {
+   "index": 187,
+   "texture": "giftshop-n",
+   "room": "giftshop",
+   "orientation": "north",
+   "name": "Gift Shop"
+  },
+  {
+   "index": 188,
+   "texture": "giftshop-s",
+   "room": "giftshop",
+   "orientation": "south",
+   "name": "Gift Shop"
+  },
+  {
+   "index": 189,
+   "texture": "giftshop-w",
+   "room": "giftshop",
+   "orientation": "west",
+   "name": "Gift Shop"
+  },
+  {
+   "index": 190,
+   "texture": "greathall-ew",
+   "room": "greathall",
+   "orientation": "east-west",
+   "name": "Great Hall"
+  },
+  {
+   "index": 191,
+   "texture": "greathall-ew-unlocked",
+   "room": "greathall-unlocked",
+   "orientation": "east-west",
+   "name": "Great Hall"
+  },
+  {
+   "index": 192,
+   "texture": "greathall-ns",
+   "room": "greathall",
+   "orientation": "north-south",
+   "name": "Great Hall"
+  },
+  {
+   "index": 193,
+   "texture": "greathall-ns-unlocked",
+   "room": "greathall-unlocked",
+   "orientation": "north-south",
+   "name": "Great Hall"
+  },
+  {
+   "index": 194,
+   "texture": "greenhouse-n",
+   "room": "greenhouse",
+   "orientation": "north",
+   "name": "Greenhouse"
+  },
+  {
+   "index": 195,
+   "texture": "greenhouse-s",
+   "room": "greenhouse",
+   "orientation": "south",
+   "name": "Greenhouse"
+  },
+  {
+   "index": 196,
+   "texture": "guestbedroom-e",
+   "room": "guestbedroom",
+   "orientation": "east",
+   "name": "Guest Bedroom"
+  },
+  {
+   "index": 197,
+   "texture": "guestbedroom-n",
+   "room": "guestbedroom",
+   "orientation": "north",
+   "name": "Guest Bedroom"
+  },
+  {
+   "index": 198,
+   "texture": "guestbedroom-s",
+   "room": "guestbedroom",
+   "orientation": "south",
+   "name": "Guest Bedroom"
+  },
+  {
+   "index": 199,
+   "texture": "guestbedroom-w",
+   "room": "guestbedroom",
+   "orientation": "west",
+   "name": "Guest Bedroom"
+  },
+  {
+   "index": 200,
+   "texture": "gymnasium-e",
+   "room": "gymnasium",
+   "orientation": "east",
+   "name": "Gymnasium"
+  },
+  {
+   "index": 201,
+   "texture": "gymnasium-n",
+   "room": "gymnasium",
+   "orientation": "north",
+   "name": "Gymnasium"
+  },
+  {
+   "index": 202,
+   "texture": "gymnasium-s",
+   "room": "gymnasium",
+   "orientation": "south",
+   "name": "Gymnasium"
+  },
+  {
+   "index": 203,
+   "texture": "gymnasium-w",
+   "room": "gymnasium",
+   "orientation": "west",
+   "name": "Gymnasium"
+  },
+  {
+   "index": 204,
+   "texture": "hallway-1key-e",
+   "room": "hallway-1key",
+   "orientation": "east",
+   "name": "Hallway"
+  },
+  {
+   "index": 205,
+   "texture": "hallway-1key-n",
+   "room": "hallway-1key",
+   "orientation": "north",
+   "name": "Hallway"
+  },
+  {
+   "index": 206,
+   "texture": "hallway-1key-s",
+   "room": "hallway-1key",
+   "orientation": "south",
+   "name": "Hallway"
+  },
+  {
+   "index": 207,
+   "texture": "hallway-1key-w",
+   "room": "hallway-1key",
+   "orientation": "west",
+   "name": "Hallway"
+  },
+  {
+   "index": 208,
+   "texture": "hallway-2keys-e",
+   "room": "hallway-2keys",
+   "orientation": "east",
+   "name": "Hallway"
+  },
+  {
+   "index": 209,
+   "texture": "hallway-2keys-n",
+   "room": "hallway-2keys",
+   "orientation": "north",
+   "name": "Hallway"
+  },
+  {
+   "index": 210,
+   "texture": "hallway-2keys-s",
+   "room": "hallway-2keys",
+   "orientation": "south",
+   "name": "Hallway"
+  },
+  {
+   "index": 211,
+   "texture": "hallway-2keys-w",
+   "room": "hallway-2keys",
+   "orientation": "west",
+   "name": "Hallway"
+  },
+  {
+   "index": 212,
+   "texture": "hallway-4keys-e",
+   "room": "hallway-4keys",
+   "orientation": "east",
+   "name": "Hallway"
+  },
+  {
+   "index": 213,
+   "texture": "hallway-4keys-n",
+   "room": "hallway-4keys",
+   "orientation": "north",
+   "name": "Hallway"
+  },
+  {
+   "index": 214,
+   "texture": "hallway-4keys-s",
+   "room": "hallway-4keys",
+   "orientation": "south",
+   "name": "Hallway"
+  },
+  {
+   "index": 215,
+   "texture": "hallway-4keys-w",
+   "room": "hallway-4keys",
+   "orientation": "west",
+   "name": "Hallway"
+  },
+  {
+   "index": 216,
+   "texture": "hallway-e",
+   "room": "hallway",
+   "orientation": "east",
+   "name": "Hallway"
+  },
+  {
+   "index": 217,
+   "texture": "hallway-n",
+   "room": "hallway",
+   "orientation": "north",
+   "name": "Hallway"
+  },
+  {
+   "index": 218,
+   "texture": "hallway-s",
+   "room": "hallway",
+   "orientation": "south",
+   "name": "Hallway"
+  },
+  {
+   "index": 219,
+   "texture": "hallway-w",
+   "room": "hallway",
+   "orientation": "west",
+   "name": "Hallway"
+  },
+  {
+   "index": 220,
+   "texture": "herladyshipschamber-e",
+   "room": "herladyshipschamber",
+   "orientation": "east",
+   "name": "Her Ladyship's Chamber"
+  },
+  {
+   "index": 221,
+   "texture": "herladyshipschamber-n",
+   "room": "herladyshipschamber",
+   "orientation": "north",
+   "name": "Her Ladyship's Chamber"
+  },
+  {
+   "index": 222,
+   "texture": "herladyshipschamber-s",
+   "room": "herladyshipschamber",
+   "orientation": "south",
+   "name": "Her Ladyship's Chamber"
+  },
+  {
+   "index": 223,
+   "texture": "herladyshipschamber-w",
+   "room": "herladyshipschamber",
+   "orientation": "west",
+   "name": "Her Ladyship's Chamber"
+  },
+  {
+   "index": 224,
+   "texture": "hovel-n",
+   "room": "hovel",
+   "orientation": "north",
+   "name": "Hovel"
+  },
+  {
+   "index": 225,
+   "texture": "kitchen-e",
+   "room": "kitchen",
+   "orientation": "east",
+   "name": "Kitchen"
+  },
+  {
+   "index": 226,
+   "texture": "kitchen-n",
+   "room": "kitchen",
+   "orientation": "north",
+   "name": "Kitchen"
+  },
+  {
+   "index": 227,
+   "texture": "kitchen-s",
+   "room": "kitchen",
+   "orientation": "south",
+   "name": "Kitchen"
+  },
+  {
+   "index": 228,
+   "texture": "kitchen-w",
+   "room": "kitchen",
+   "orientation": "west",
+   "name": "Kitchen"
+  },
+  {
+   "index": 229,
+   "texture": "laboratory-e",
+   "room": "laboratory",
+   "orientation": "east",
+   "name": "Laboratory"
+  },
+  {
+   "index": 230,
+   "texture": "laboratory-n",
+   "room": "laboratory",
+   "orientation": "north",
+   "name": "Laboratory"
+  },
+  {
+   "index": 231,
+   "texture": "laboratory-s",
+   "room": "laboratory",
+   "orientation": "south",
+   "name": "Laboratory"
+  },
+  {
+   "index": 232,
+   "texture": "laboratory-w",
+   "room": "laboratory",
+   "orientation": "west",
+   "name": "Laboratory"
+  },
+  {
+   "index": 233,
+   "texture": "laundryroom-e",
+   "room": "laundryroom",
+   "orientation": "east",
+   "name": "Laundry Room"
+  },
+  {
+   "index": 234,
+   "texture": "laundryroom-n",
+   "room": "laundryroom",
+   "orientation": "north",
+   "name": "Laundry Room"
+  },
+  {
+   "index": 235,
+   "texture": "laundryroom-s",
+   "room": "laundryroom",
+   "orientation": "south",
+   "name": "Laundry Room"
+  },
+  {
+   "index": 236,
+   "texture": "laundryroom-w",
+   "room": "laundryroom",
+   "orientation": "west",
+   "name": "Laundry Room"
+  },
+  {
+   "index": 237,
+   "texture": "lavatory-e",
+   "room": "lavatory",
+   "orientation": "east",
+   "name": "Lavatory"
+  },
+  {
+   "index": 238,
+   "texture": "lavatory-n",
+   "room": "lavatory",
+   "orientation": "north",
+   "name": "Lavatory"
+  },
+  {
+   "index": 239,
+   "texture": "lavatory-s",
+   "room": "lavatory",
+   "orientation": "south",
+   "name": "Lavatory"
+  },
+  {
+   "index": 240,
+   "texture": "lavatory-w",
+   "room": "lavatory",
+   "orientation": "west",
+   "name": "Lavatory"
+  },
+  {
+   "index": 241,
+   "texture": "library-e",
+   "room": "library",
+   "orientation": "east",
+   "name": "Library"
+  },
+  {
+   "index": 242,
+   "texture": "library-n",
+   "room": "library",
+   "orientation": "north",
+   "name": "Library"
+  },
+  {
+   "index": 243,
+   "texture": "library-s",
+   "room": "library",
+   "orientation": "south",
+   "name": "Library"
+  },
+  {
+   "index": 244,
+   "texture": "library-w",
+   "room": "library",
+   "orientation": "west",
+   "name": "Library"
+  },
+  {
+   "index": 245,
+   "texture": "lockerroom-e",
+   "room": "lockerroom",
+   "orientation": "east",
+   "name": "Locker Room"
+  },
+  {
+   "index": 246,
+   "texture": "lockerroom-n",
+   "room": "lockerroom",
+   "orientation": "north",
+   "name": "Locker Room"
+  },
+  {
+   "index": 247,
+   "texture": "lockerroom-s",
+   "room": "lockerroom",
+   "orientation": "south",
+   "name": "Locker Room"
+  },
+  {
+   "index": 248,
+   "texture": "lockerroom-w",
+   "room": "lockerroom",
+   "orientation": "west",
+   "name": "Locker Room"
+  },
+  {
+   "index": 249,
+   "texture": "locksmith-e",
+   "room": "locksmith",
+   "orientation": "east",
+   "name": "Locksmith"
+  },
+  {
+   "index": 250,
+   "texture": "locksmith-n",
+   "room": "locksmith",
+   "orientation": "north",
+   "name": "Locksmith"
+  },
+  {
+   "index": 251,
+   "texture": "locksmith-s",
+   "room": "locksmith",
+   "orientation": "south",
+   "name": "Locksmith"
+  },
+  {
+   "index": 252,
+   "texture": "locksmith-w",
+   "room": "locksmith",
+   "orientation": "west",
+   "name": "Locksmith"
+  },
+  {
+   "index": 253,
+   "texture": "lost&found-ne",
+   "room": "lost&found",
+   "orientation": "north-east",
+   "name": "Lost & Found"
+  },
+  {
+   "index": 254,
+   "texture": "lost&found-nw",
+   "room": "lost&found",
+   "orientation": "north-west",
+   "name": "Lost & Found"
+  },
+  {
+   "index": 255,
+   "texture": "lost&found-se",
+   "room": "lost&found",
+   "orientation": "south-east",
+   "name": "Lost & Found"
+  },
+  {
+   "index": 256,
+   "texture": "lost&found-sw",
+   "room": "lost&found",
+   "orientation": "south-west",
+   "name": "Lost & Found"
+  },
+  {
+   "index": 257,
+   "texture": "maidschambers-e",
+   "room": "maidschambers",
+   "orientation": "east",
+   "name": "Maid's Chamber"
+  },
+  {
+   "index": 258,
+   "texture": "maidschambers-n",
+   "room": "maidschambers",
+   "orientation": "north",
+   "name": "Maid's Chamber"
+  },
+  {
+   "index": 259,
+   "texture": "maidschambers-s",
+   "room": "maidschambers",
+   "orientation": "south",
+   "name": "Maid's Chamber"
+  },
+  {
+   "index": 260,
+   "texture": "maidschambers-w",
+   "room": "maidschambers",
+   "orientation": "west",
+   "name": "Maid's Chamber"
+  },
+  {
+   "index": 261,
+   "texture": "mailroom-e",
+   "room": "mailroom",
+   "orientation": "east",
+   "name": "Mail Room"
+  },
+  {
+   "index": 262,
+   "texture": "mailroom-e-deliv",
+   "room": "mailroom-deliv",
+   "orientation": "east",
+   "name": "Mail Room"
+  },
+  {
+   "index": 263,
+   "texture": "mailroom-freight-e",
+   "room": "mailroom-freight",
+   "orientation": "east",
+   "name": "Mail Room"
+  },
+  {
+   "index": 264,
+   "texture": "mailroom-freight-n",
+   "room": "mailroom-freight",
+   "orientation": "north",
+   "name": "Mail Room"
+  },
+  {
+   "index": 265,
+   "texture": "mailroom-freight-s",
+   "room": "mailroom-freight",
+   "orientation": "south",
+   "name": "Mail Room"
+  },
+  {
+   "index": 266,
+   "texture": "mailroom-freight-w",
+   "room": "mailroom-freight",
+   "orientation": "west",
+   "name": "Mail Room"
+  },
+  {
+   "index": 267,
+   "texture": "mailroom-intransit-e",
+   "room": "mailroom-intransit",
+   "orientation": "east",
+   "name": "Mail Room"
+  },
+  {
+   "index": 268,
+   "texture": "mailroom-intransit-n",
+   "room": "mailroom-intransit",
+   "orientation": "north",
+   "name": "Mail Room"
+  },
+  {
+   "index": 269,
+   "texture": "mailroom-intransit-s",
+   "room": "mailroom-intransit",
+   "orientation": "south",
+   "name": "Mail Room"
+  },
+  {
+   "index": 270,
+   "texture": "mailroom-intransit-w",
+   "room": "mailroom-intransit",
+   "orientation": "west",
+   "name": "Mail Room"
+  },
+  {
+   "index": 271,
+   "texture": "mailroom-n",
+   "room": "mailroom",
+   "orientation": "north",
+   "name": "Mail Room"
+  },
+  {
+   "index": 272,
+   "texture": "mailroom-n-deliv",
+   "room": "mailroom-deliv",
+   "orientation": "north",
+   "name": "Mail Room"
+  },
+  {
+   "index": 273,
+   "texture": "mailroom-nocontact-e",
+   "room": "mailroom-nocontact",
+   "orientation": "east",
+   "name": "Mail Room"
+  },
+  {
+   "index": 274,
+   "texture": "mailroom-nocontact-n",
+   "room": "mailroom-nocontact",
+   "orientation": "north",
+   "name": "Mail Room"
+  },
+  {
+   "index": 275,
+   "texture": "mailroom-nocontact-s",
+   "room": "mailroom-nocontact",
+   "orientation": "south",
+   "name": "Mail Room"
+  },
+  {
+   "index": 276,
+   "texture": "mailroom-nocontact-w",
+   "room": "mailroom-nocontact",
+   "orientation": "west",
+   "name": "Mail Room"
+  },
+  {
+   "index": 277,
+   "texture": "mailroom-s",
+   "room": "mailroom",
+   "orientation": "south",
+   "name": "Mail Room"
+  },
+  {
+   "index": 278,
+   "texture": "mailroom-s-deliv",
+   "room": "mailroom-deliv",
+   "orientation": "south",
+   "name": "Mail Room"
+  },
+  {
+   "index": 279,
+   "texture": "mailroom-sameday-e",
+   "room": "mailroom-sameday",
+   "orientation": "east",
+   "name": "Mail Room"
+  },
+  {
+   "index": 280,
+   "texture": "mailroom-sameday-n",
+   "room": "mailroom-sameday",
+   "orientation": "north",
+   "name": "Mail Room"
+  },
+  {
+   "index": 281,
+   "texture": "mailroom-sameday-s",
+   "room": "mailroom-sameday",
+   "orientation": "south",
+   "name": "Mail Room"
+  },
+  {
+   "index": 282,
+   "texture": "mailroom-sameday-w",
+   "room": "mailroom-sameday",
+   "orientation": "west",
+   "name": "Mail Room"
+  },
+  {
+   "index": 283,
+   "texture": "mailroom-w",
+   "room": "mailroom",
+   "orientation": "west",
+   "name": "Mail Room"
+  },
+  {
+   "index": 284,
+   "texture": "mailroom-w-deliv",
+   "room": "mailroom-deliv",
+   "orientation": "west",
+   "name": "Mail Room"
+  },
+  {
+   "index": 285,
+   "texture": "masterbedroom-e",
+   "room": "masterbedroom",
+   "orientation": "east",
+   "name": "Master Bedroom"
+  },
+  {
+   "index": 286,
+   "texture": "masterbedroom-n",
+   "room": "masterbedroom",
+   "orientation": "north",
+   "name": "Master Bedroom"
+  },
+  {
+   "index": 287,
+   "texture": "masterbedroom-s",
+   "room": "masterbedroom",
+   "orientation": "south",
+   "name": "Master Bedroom"
+  },
+  {
+   "index": 288,
+   "texture": "masterbedroom-w",
+   "room": "masterbedroom",
+   "orientation": "west",
+   "name": "Master Bedroom"
+  },
+  {
+   "index": 289,
+   "texture": "mechanarium-e",
+   "room": "mechanarium",
+   "orientation": "east",
+   "name": "Mechanarium"
+  },
+  {
+   "index": 290,
+   "texture": "mechanarium-n",
+   "room": "mechanarium",
+   "orientation": "north",
+   "name": "Mechanarium"
+  },
+  {
+   "index": 291,
+   "texture": "mechanarium-s",
+   "room": "mechanarium",
+   "orientation": "south",
+   "name": "Mechanarium"
+  },
+  {
+   "index": 292,
+   "texture": "mechanarium-w",
+   "room": "mechanarium",
+   "orientation": "west",
+   "name": "Mechanarium"
+  },
+  {
+   "index": 293,
+   "texture": "monringroom-e",
+   "room": "monringroom",
+   "orientation": "east",
+   "name": "Morning Room"
+  },
+  {
+   "index": 294,
+   "texture": "monringroom-n",
+   "room": "monringroom",
+   "orientation": "north",
+   "name": "Morning Room"
+  },
+  {
+   "index": 295,
+   "texture": "monringroom-s",
+   "room": "monringroom",
+   "orientation": "south",
+   "name": "Morning Room"
+  },
+  {
+   "index": 296,
+   "texture": "monringroom-w",
+   "room": "monringroom",
+   "orientation": "west",
+   "name": "Morning Room"
+  },
+  {
+   "index": 297,
+   "texture": "musicroom-e",
+   "room": "musicroom",
+   "orientation": "east",
+   "name": "Music Room"
+  },
+  {
+   "index": 298,
+   "texture": "musicroom-n",
+   "room": "musicroom",
+   "orientation": "north",
+   "name": "Music Room"
+  },
+  {
+   "index": 299,
+   "texture": "musicroom-s",
+   "room": "musicroom",
+   "orientation": "south",
+   "name": "Music Room"
+  },
+  {
+   "index": 300,
+   "texture": "musicroom-w",
+   "room": "musicroom",
+   "orientation": "west",
+   "name": "Music Room"
+  },
+  {
+   "index": 301,
+   "texture": "nook-e",
+   "room": "nook",
+   "orientation": "east",
+   "name": "Nook"
+  },
+  {
+   "index": 302,
+   "texture": "nook-n",
+   "room": "nook",
+   "orientation": "north",
+   "name": "Nook"
+  },
+  {
+   "index": 303,
+   "texture": "nook-s",
+   "room": "nook",
+   "orientation": "south",
+   "name": "Nook"
+  },
+  {
+   "index": 304,
+   "texture": "nook-w",
+   "room": "nook",
+   "orientation": "west",
+   "name": "Nook"
+  },
+  {
+   "index": 305,
+   "texture": "nursery-e",
+   "room": "nursery",
+   "orientation": "east",
+   "name": "Nursery"
+  },
+  {
+   "index": 306,
+   "texture": "nursery-n",
+   "room": "nursery",
+   "orientation": "north",
+   "name": "Nursery"
+  },
+  {
+   "index": 307,
+   "texture": "nursery-s",
+   "room": "nursery",
+   "orientation": "south",
+   "name": "Nursery"
+  },
+  {
+   "index": 308,
+   "texture": "nursery-w",
+   "room": "nursery",
+   "orientation": "west",
+   "name": "Nursery"
+  },
+  {
+   "index": 309,
+   "texture": "observatory-e",
+   "room": "observatory",
+   "orientation": "east",
+   "name": "Observatory"
+  },
+  {
+   "index": 310,
+   "texture": "observatory-n",
+   "room": "observatory",
+   "orientation": "north",
+   "name": "Observatory"
+  },
+  {
+   "index": 311,
+   "texture": "observatory-s",
+   "room": "observatory",
+   "orientation": "south",
+   "name": "Observatory"
+  },
+  {
+   "index": 312,
+   "texture": "observatory-w",
+   "room": "observatory",
+   "orientation": "west",
+   "name": "Observatory"
+  },
+  {
+   "index": 313,
+   "texture": "office-e",
+   "room": "office",
+   "orientation": "east",
+   "name": "Office"
+  },
+  {
+   "index": 314,
+   "texture": "office-n",
+   "room": "office",
+   "orientation": "north",
+   "name": "Office"
+  },
+  {
+   "index": 315,
+   "texture": "office-s",
+   "room": "office",
+   "orientation": "south",
+   "name": "Office"
+  },
+  {
+   "index": 316,
+   "texture": "office-w",
+   "room": "office",
+   "orientation": "west",
+   "name": "Office"
+  },
+  {
+   "index": 317,
+   "texture": "pantry-e",
+   "room": "pantry",
+   "orientation": "east",
+   "name": "Pantry"
+  },
+  {
+   "index": 318,
+   "texture": "pantry-n",
+   "room": "pantry",
+   "orientation": "north",
+   "name": "Pantry"
+  },
+  {
+   "index": 319,
+   "texture": "pantry-s",
+   "room": "pantry",
+   "orientation": "south",
+   "name": "Pantry"
+  },
+  {
+   "index": 320,
+   "texture": "pantry-w",
+   "room": "pantry",
+   "orientation": "west",
+   "name": "Pantry"
+  },
+  {
+   "index": 321,
+   "texture": "parlor-e",
+   "room": "parlor",
+   "orientation": "east",
+   "name": "Parlor"
+  },
+  {
+   "index": 322,
+   "texture": "parlor-n",
+   "room": "parlor",
+   "orientation": "north",
+   "name": "Parlor"
+  },
+  {
+   "index": 323,
+   "texture": "parlor-s",
+   "room": "parlor",
+   "orientation": "south",
+   "name": "Parlor"
+  },
+  {
+   "index": 324,
+   "texture": "parlor-w",
+   "room": "parlor",
+   "orientation": "west",
+   "name": "Parlor"
+  },
+  {
+   "index": 325,
+   "texture": "passageway-4",
+   "room": "passageway",
+   "orientation": "any",
+   "name": "Passageway"
+  },
+  {
+   "index": 326,
+   "texture": "patio-e",
+   "room": "patio",
+   "orientation": "east",
+   "name": "Patio"
+  },
+  {
+   "index": 327,
+   "texture": "patio-n",
+   "room": "patio",
+   "orientation": "north",
+   "name": "Patio"
+  },
+  {
+   "index": 328,
+   "texture": "patio-s",
+   "room": "patio",
+   "orientation": "south",
+   "name": "Patio"
+  },
+  {
+   "index": 329,
+   "texture": "patio-w",
+   "room": "patio",
+   "orientation": "west",
+   "name": "Patio"
+  },
+  {
+   "index": 330,
+   "texture": "planetarium-e",
+   "room": "planetarium",
+   "orientation": "east",
+   "name": "Planetarium"
+  },
+  {
+   "index": 331,
+   "texture": "planetarium-s",
+   "room": "planetarium",
+   "orientation": "south",
+   "name": "Planetarium"
+  },
+  {
+   "index": 332,
+   "texture": "planetarium-w",
+   "room": "planetarium",
+   "orientation": "west",
+   "name": "Planetarium"
+  },
+  {
+   "index": 333,
+   "texture": "planetarium-n",
+   "room": "planetarium",
+   "orientation": "north",
+   "name": "Planetarium"
+  },
+  {
+   "index": 334,
+   "texture": "pumproom-e",
+   "room": "pumproom",
+   "orientation": "east",
+   "name": "Pump Room"
+  },
+  {
+   "index": 335,
+   "texture": "pumproom-n",
+   "room": "pumproom",
+   "orientation": "north",
+   "name": "Pump Room"
+  },
+  {
+   "index": 336,
+   "texture": "pumproom-s",
+   "room": "pumproom",
+   "orientation": "south",
+   "name": "Pump Room"
+  },
+  {
+   "index": 337,
+   "texture": "pumproom-w",
+   "room": "pumproom",
+   "orientation": "west",
+   "name": "Pump Room"
+  },
+  {
+   "index": 338,
+   "texture": "room8-e",
+   "room": "room8",
+   "orientation": "east",
+   "name": "Room 8"
+  },
+  {
+   "index": 339,
+   "texture": "room8-n",
+   "room": "room8",
+   "orientation": "north",
+   "name": "Room 8"
+  },
+  {
+   "index": 340,
+   "texture": "room8-s",
+   "room": "room8",
+   "orientation": "south",
+   "name": "Room 8"
+  },
+  {
+   "index": 341,
+   "texture": "room8-w",
+   "room": "room8",
+   "orientation": "west",
+   "name": "Room 8"
+  },
+  {
+   "index": 342,
+   "texture": "room46-n",
+   "room": "room46",
+   "orientation": "north",
+   "name": "Room 46"
+  },
+  {
+   "index": 343,
+   "texture": "rootcellar-n",
+   "room": "rootcellar",
+   "orientation": "north",
+   "name": "Root Cellar"
+  },
+  {
+   "index": 344,
+   "texture": "rotunda-e",
+   "room": "rotunda",
+   "orientation": "east",
+   "name": "Rotunda"
+  },
+  {
+   "index": 345,
+   "texture": "rotunda-n",
+   "room": "rotunda",
+   "orientation": "north",
+   "name": "Rotunda"
+  },
+  {
+   "index": 346,
+   "texture": "rotunda-s",
+   "room": "rotunda",
+   "orientation": "south",
+   "name": "Rotunda"
+  },
+  {
+   "index": 347,
+   "texture": "rotunda-w",
+   "room": "rotunda",
+   "orientation": "west",
+   "name": "Rotunda"
+  },
+  {
+   "index": 348,
+   "texture": "rumpusroom-e",
+   "room": "rumpusroom",
+   "orientation": "east",
+   "name": "Rumpus Room"
+  },
+  {
+   "index": 349,
+   "texture": "rumpusroom-n",
+   "room": "rumpusroom",
+   "orientation": "north",
+   "name": "Rumpus Room"
+  },
+  {
+   "index": 350,
+   "texture": "rumpusroom-s",
+   "room": "rumpusroom",
+   "orientation": "south",
+   "name": "Rumpus Room"
+  },
+  {
+   "index": 351,
+   "texture": "rumpusroom-w",
+   "room": "rumpusroom",
+   "orientation": "west",
+   "name": "Rumpus Room"
+  },
+  {
+   "index": 352,
+   "texture": "sauna-e",
+   "room": "sauna",
+   "orientation": "east",
+   "name": "Sauna"
+  },
+  {
+   "index": 353,
+   "texture": "sauna-n",
+   "room": "sauna",
+   "orientation": "north",
+   "name": "Sauna"
+  },
+  {
+   "index": 354,
+   "texture": "sauna-s",
+   "room": "sauna",
+   "orientation": "south",
+   "name": "Sauna"
+  },
+  {
+   "index": 355,
+   "texture": "sauna-w",
+   "room": "sauna",
+   "orientation": "west",
+   "name": "Sauna"
+  },
+  {
+   "index": 356,
+   "texture": "schoolhouse-n",
+   "room": "schoolhouse",
+   "orientation": "north",
+   "name": "Schoolhouse"
+  },
+  {
+   "index": 357,
+   "texture": "secretgarden-e",
+   "room": "secretgarden",
+   "orientation": "east",
+   "name": "Secret Garden"
+  },
+  {
+   "index": 358,
+   "texture": "secretgarden-w",
+   "room": "secretgarden",
+   "orientation": "west",
+   "name": "Secret Garden"
+  },
+  {
+   "index": 359,
+   "texture": "secretpassage-e",
+   "room": "secretpassage",
+   "orientation": "east",
+   "name": "Secret Passage"
+  },
+  {
+   "index": 360,
+   "texture": "secretpassage-n",
+   "room": "secretpassage",
+   "orientation": "north",
+   "name": "Secret Passage"
+  },
+  {
+   "index": 361,
+   "texture": "secretpassage-s",
+   "room": "secretpassage",
+   "orientation": "south",
+   "name": "Secret Passage"
+  },
+  {
+   "index": 362,
+   "texture": "secretpassage-w",
+   "room": "secretpassage",
+   "orientation": "west",
+   "name": "Secret Passage"
+  },
+  {
+   "index": 363,
+   "texture": "security-e",
+   "room": "security",
+   "orientation": "east",
+   "name": "Security"
+  },
+  {
+   "index": 364,
+   "texture": "security-n",
+   "room": "security",
+   "orientation": "north",
+   "name": "Security"
+  },
+  {
+   "index": 365,
+   "texture": "security-s",
+   "room": "security",
+   "orientation": "south",
+   "name": "Security"
+  },
+  {
+   "index": 366,
+   "texture": "security-w",
+   "room": "security",
+   "orientation": "west",
+   "name": "Security"
+  },
+  {
+   "index": 367,
+   "texture": "servantsquarters-e",
+   "room": "servantsquarters",
+   "orientation": "east",
+   "name": "Servant's Quarters"
+  },
+  {
+   "index": 368,
+   "texture": "servantsquarters-n",
+   "room": "servantsquarters",
+   "orientation": "north",
+   "name": "Servant's Quarters"
+  },
+  {
+   "index": 369,
+   "texture": "servantsquarters-s",
+   "room": "servantsquarters",
+   "orientation": "south",
+   "name": "Servant's Quarters"
+  },
+  {
+   "index": 370,
+   "texture": "servantsquarters-w",
+   "room": "servantsquarters",
+   "orientation": "west",
+   "name": "Servant's Quarters"
+  },
+  {
+   "index": 371,
+   "texture": "shelter-n",
+   "room": "shelter",
+   "orientation": "north",
+   "name": "Shelter"
+  },
+  {
+   "index": 372,
+   "texture": "showroom-ew",
+   "room": "showroom",
+   "orientation": "east-west",
+   "name": "Showroom"
+  },
+  {
+   "index": 373,
+   "texture": "showroom-ns",
+   "room": "showroom",
+   "orientation": "north-south",
+   "name": "Showroom"
+  },
+  {
+   "index": 374,
+   "texture": "shrine-n",
+   "room": "shrine",
+   "orientation": "north",
+   "name": "Shrine"
+  },
+  {
+   "index": 375,
+   "texture": "solarium-e",
+   "room": "solarium",
+   "orientation": "east",
+   "name": "Solarium"
+  },
+  {
+   "index": 376,
+   "texture": "solarium-n",
+   "room": "solarium",
+   "orientation": "north",
+   "name": "Solarium"
+  },
+  {
+   "index": 377,
+   "texture": "solarium-s",
+   "room": "solarium",
+   "orientation": "south",
+   "name": "Solarium"
+  },
+  {
+   "index": 378,
+   "texture": "solarium-w",
+   "room": "solarium",
+   "orientation": "west",
+   "name": "Solarium"
+  },
+  {
+   "index": 379,
+   "texture": "sparebedroom-e",
+   "room": "sparebedroom",
+   "orientation": "east",
+   "name": "Spare Bedroom"
+  },
+  {
+   "index": 380,
+   "texture": "sparebedroom-n",
+   "room": "sparebedroom",
+   "orientation": "north",
+   "name": "Spare Bedroom"
+  },
+  {
+   "index": 381,
+   "texture": "sparegreenroom-e",
+   "room": "sparegreenroom",
+   "orientation": "east",
+   "name": "Spare Greenroom"
+  },
+  {
+   "index": 382,
+   "texture": "sparegreenroom-n",
+   "room": "sparegreenroom",
+   "orientation": "north",
+   "name": "Spare Greenroom"
+  },
+  {
+   "index": 383,
+   "texture": "sparehall-e",
+   "room": "sparehall",
+   "orientation": "east",
+   "name": "Spare Hall"
+  },
+  {
+   "index": 384,
+   "texture": "sparehall-n",
+   "room": "sparehall",
+   "orientation": "north",
+   "name": "Spare Hall"
+  },
+  {
+   "index": 385,
+   "texture": "spareroom-e",
+   "room": "spareroom",
+   "orientation": "east",
+   "name": "Spare Room"
+  },
+  {
+   "index": 386,
+   "texture": "spareroom-n",
+   "room": "spareroom",
+   "orientation": "north",
+   "name": "Spare Room"
+  },
+  {
+   "index": 389,
+   "texture": "storeroom-e",
+   "room": "storeroom",
+   "orientation": "east",
+   "name": "Storeroom"
+  },
+  {
+   "index": 390,
+   "texture": "storeroom-gems-e",
+   "room": "storeroom-gems",
+   "orientation": "east",
+   "name": "Storeroom"
+  },
+  {
+   "index": 391,
+   "texture": "storeroom-gems-n",
+   "room": "storeroom-gems",
+   "orientation": "north",
+   "name": "Storeroom"
+  },
+  {
+   "index": 392,
+   "texture": "storeroom-gems-s",
+   "room": "storeroom-gems",
+   "orientation": "south",
+   "name": "Storeroom"
+  },
+  {
+   "index": 393,
+   "texture": "storeroom-gems-w",
+   "room": "storeroom-gems",
+   "orientation": "west",
+   "name": "Storeroom"
+  },
+  {
+   "index": 394,
+   "texture": "storeroom-gold-e",
+   "room": "storeroom-gold",
+   "orientation": "east",
+   "name": "Storeroom"
+  },
+  {
+   "index": 395,
+   "texture": "storeroom-gold-n",
+   "room": "storeroom-gold",
+   "orientation": "north",
+   "name": "Storeroom"
+  },
+  {
+   "index": 396,
+   "texture": "storeroom-gold-s",
+   "room": "storeroom-gold",
+   "orientation": "south",
+   "name": "Storeroom"
+  },
+  {
+   "index": 397,
+   "texture": "storeroom-gold-w",
+   "room": "storeroom-gold",
+   "orientation": "west",
+   "name": "Storeroom"
+  },
+  {
+   "index": 398,
+   "texture": "storeroom-keys-e",
+   "room": "storeroom-keys",
+   "orientation": "east",
+   "name": "Storeroom"
+  },
+  {
+   "index": 399,
+   "texture": "storeroom-keys-n",
+   "room": "storeroom-keys",
+   "orientation": "north",
+   "name": "Storeroom"
+  },
+  {
+   "index": 400,
+   "texture": "storeroom-keys-s",
+   "room": "storeroom-keys",
+   "orientation": "south",
+   "name": "Storeroom"
+  },
+  {
+   "index": 401,
+   "texture": "storeroom-keys-w",
+   "room": "storeroom-keys",
+   "orientation": "west",
+   "name": "Storeroom"
+  },
+  {
+   "index": 402,
+   "texture": "storeroom-n",
+   "room": "storeroom",
+   "orientation": "north",
+   "name": "Storeroom"
+  },
+  {
+   "index": 403,
+   "texture": "storeroom-s",
+   "room": "storeroom",
+   "orientation": "south",
+   "name": "Storeroom"
+  },
+  {
+   "index": 404,
+   "texture": "storeroom-w",
+   "room": "storeroom",
+   "orientation": "west",
+   "name": "Storeroom"
+  },
+  {
+   "index": 405,
+   "texture": "study-e",
+   "room": "study",
+   "orientation": "east",
+   "name": "Study"
+  },
+  {
+   "index": 406,
+   "texture": "study-n",
+   "room": "study",
+   "orientation": "north",
+   "name": "Study"
+  },
+  {
+   "index": 407,
+   "texture": "study-s",
+   "room": "study",
+   "orientation": "south",
+   "name": "Study"
+  },
+  {
+   "index": 408,
+   "texture": "study-w",
+   "room": "study",
+   "orientation": "west",
+   "name": "Study"
+  },
+  {
+   "index": 409,
+   "texture": "terrace-e",
+   "room": "terrace",
+   "orientation": "east",
+   "name": "Terrace"
+  },
+  {
+   "index": 410,
+   "texture": "terrace-n",
+   "room": "terrace",
+   "orientation": "north",
+   "name": "Terrace"
+  },
+  {
+   "index": 411,
+   "texture": "terrace-s",
+   "room": "terrace",
+   "orientation": "south",
+   "name": "Terrace"
+  },
+  {
+   "index": 412,
+   "texture": "thefoundation-e",
+   "room": "thefoundation",
+   "orientation": "east",
+   "name": "The Foundation"
+  },
+  {
+   "index": 413,
+   "texture": "thefoundation-n",
+   "room": "thefoundation",
+   "orientation": "north",
+   "name": "The Foundation"
+  },
+  {
+   "index": 414,
+   "texture": "thefoundation-s",
+   "room": "thefoundation",
+   "orientation": "south",
+   "name": "The Foundation"
+  },
+  {
+   "index": 415,
+   "texture": "thefoundation-w",
+   "room": "thefoundation",
+   "orientation": "west",
+   "name": "The Foundation"
+  },
+  {
+   "index": 417,
+   "texture": "thekennel-n",
+   "room": "thekennel",
+   "orientation": "north",
+   "name": "The Kennel"
+  },
+  {
+   "index": 419,
+   "texture": "thekennel-w",
+   "room": "thekennel",
+   "orientation": "west",
+   "name": "The Kennel"
+  },
+  {
+   "index": 420,
+   "texture": "thepool-e",
+   "room": "thepool",
+   "orientation": "east",
+   "name": "The Pool"
+  },
+  {
+   "index": 421,
+   "texture": "thepool-n",
+   "room": "thepool",
+   "orientation": "north",
+   "name": "The Pool"
+  },
+  {
+   "index": 422,
+   "texture": "thepool-s",
+   "room": "thepool",
+   "orientation": "south",
+   "name": "The Pool"
+  },
+  {
+   "index": 423,
+   "texture": "thepool-w",
+   "room": "thepool",
+   "orientation": "west",
+   "name": "The Pool"
+  },
+  {
+   "index": 424,
+   "texture": "throneroom-e",
+   "room": "throneroom",
+   "orientation": "east",
+   "name": "Throne Room"
+  },
+  {
+   "index": 425,
+   "texture": "throneroom-n",
+   "room": "throneroom",
+   "orientation": "north",
+   "name": "Throne Room"
+  },
+  {
+   "index": 426,
+   "texture": "throneroom-s",
+   "room": "throneroom",
+   "orientation": "south",
+   "name": "Throne Room"
+  },
+  {
+   "index": 427,
+   "texture": "throneroom-w",
+   "room": "throneroom",
+   "orientation": "west",
+   "name": "Throne Room"
+  },
+  {
+   "index": 428,
+   "texture": "tomb-n",
+   "room": "tomb",
+   "orientation": "north",
+   "name": "Tomb"
+  },
+  {
+   "index": 429,
+   "texture": "toolshed-n",
+   "room": "toolshed",
+   "orientation": "north",
+   "name": "Toolshed"
+  },
+  {
+   "index": 430,
+   "texture": "tradingpost-n",
+   "room": "tradingpost",
+   "orientation": "north",
+   "name": "Trading Post"
+  },
+  {
+   "index": 431,
+   "texture": "treasuretrove-e",
+   "room": "treasuretrove",
+   "orientation": "east",
+   "name": "Treasure Trove"
+  },
+  {
+   "index": 432,
+   "texture": "treasuretrove-n",
+   "room": "treasuretrove",
+   "orientation": "north",
+   "name": "Treasure Trove"
+  },
+  {
+   "index": 433,
+   "texture": "treasuretrove-s",
+   "room": "treasuretrove",
+   "orientation": "south",
+   "name": "Treasure Trove"
+  },
+  {
+   "index": 434,
+   "texture": "treasuretrove-w",
+   "room": "treasuretrove",
+   "orientation": "west",
+   "name": "Treasure Trove"
+  },
+  {
+   "index": 435,
+   "texture": "trophyroom-e",
+   "room": "trophyroom",
+   "orientation": "east",
+   "name": "Trophy Room"
+  },
+  {
+   "index": 436,
+   "texture": "trophyroom-n",
+   "room": "trophyroom",
+   "orientation": "north",
+   "name": "Trophy Room"
+  },
+  {
+   "index": 437,
+   "texture": "trophyroom-s",
+   "room": "trophyroom",
+   "orientation": "south",
+   "name": "Trophy Room"
+  },
+  {
+   "index": 438,
+   "texture": "trophyroom-w",
+   "room": "trophyroom",
+   "orientation": "west",
+   "name": "Trophy Room"
+  },
+  {
+   "index": 439,
+   "texture": "utilitycloset-e",
+   "room": "utilitycloset",
+   "orientation": "east",
+   "name": "Utility Closet"
+  },
+  {
+   "index": 440,
+   "texture": "utilitycloset-n",
+   "room": "utilitycloset",
+   "orientation": "north",
+   "name": "Utility Closet"
+  },
+  {
+   "index": 441,
+   "texture": "utilitycloset-s",
+   "room": "utilitycloset",
+   "orientation": "south",
+   "name": "Utility Closet"
+  },
+  {
+   "index": 442,
+   "texture": "utilitycloset-w",
+   "room": "utilitycloset",
+   "orientation": "west",
+   "name": "Utility Closet"
+  },
+  {
+   "index": 443,
+   "texture": "vault-e",
+   "room": "vault",
+   "orientation": "east",
+   "name": "Vault"
+  },
+  {
+   "index": 444,
+   "texture": "vault-n",
+   "room": "vault",
+   "orientation": "north",
+   "name": "Vault"
+  },
+  {
+   "index": 445,
+   "texture": "vault-s",
+   "room": "vault",
+   "orientation": "south",
+   "name": "Vault"
+  },
+  {
+   "index": 446,
+   "texture": "vault-w",
+   "room": "vault",
+   "orientation": "west",
+   "name": "Vault"
+  },
+  {
+   "index": 447,
+   "texture": "veranda-n",
+   "room": "veranda",
+   "orientation": "north",
+   "name": "Veranda"
+  },
+  {
+   "index": 448,
+   "texture": "veranda-s",
+   "room": "veranda",
+   "orientation": "south",
+   "name": "Veranda"
+  },
+  {
+   "index": 449,
+   "texture": "vestibule-4",
+   "room": "vestibule",
+   "orientation": "any",
+   "name": "Vestibule"
+  },
+  {
+   "index": 450,
+   "texture": "walkincloset-e",
+   "room": "walkincloset",
+   "orientation": "east",
+   "name": "Walk-In Closet"
+  },
+  {
+   "index": 451,
+   "texture": "walkincloset-n",
+   "room": "walkincloset",
+   "orientation": "north",
+   "name": "Walk-In Closet"
+  },
+  {
+   "index": 452,
+   "texture": "walkincloset-s",
+   "room": "walkincloset",
+   "orientation": "south",
+   "name": "Walk-In Closet"
+  },
+  {
+   "index": 453,
+   "texture": "walkincloset-w",
+   "room": "walkincloset",
+   "orientation": "west",
+   "name": "Walk-In Closet"
+  },
+  {
+   "index": 454,
+   "texture": "weightroom-4",
+   "room": "weightroom",
+   "orientation": "any",
+   "name": "Weight Room"
+  },
+  {
+   "index": 455,
+   "texture": "westwinghall-e",
+   "room": "westwinghall",
+   "orientation": "east",
+   "name": "West Wing Hall"
+  },
+  {
+   "index": 456,
+   "texture": "westwinghall-w",
+   "room": "westwinghall",
+   "orientation": "west",
+   "name": "West Wing Hall"
+  },
+  {
+   "index": 457,
+   "texture": "winecellar-e",
+   "room": "winecellar",
+   "orientation": "east",
+   "name": "Wine Cellar"
+  },
+  {
+   "index": 458,
+   "texture": "winecellar-n",
+   "room": "winecellar",
+   "orientation": "north",
+   "name": "Wine Cellar"
+  },
+  {
+   "index": 459,
+   "texture": "winecellar-s",
+   "room": "winecellar",
+   "orientation": "south",
+   "name": "Wine Cellar"
+  },
+  {
+   "index": 460,
+   "texture": "winecellar-w",
+   "room": "winecellar",
+   "orientation": "west",
+   "name": "Wine Cellar"
+  },
+  {
+   "index": 461,
+   "texture": "workshop-e",
+   "room": "workshop",
+   "orientation": "east",
+   "name": "Workshop"
+  },
+  {
+   "index": 462,
+   "texture": "workshop-n",
+   "room": "workshop",
+   "orientation": "north",
+   "name": "Workshop"
+  },
+  {
+   "index": 463,
+   "texture": "workshop-s",
+   "room": "workshop",
+   "orientation": "south",
+   "name": "Workshop"
+  },
+  {
+   "index": 464,
+   "texture": "workshop-w",
+   "room": "workshop",
+   "orientation": "west",
+   "name": "Workshop"
+  },
+  {
+   "index": 465,
+   "texture": "aquarium-eel-e",
+   "room": "aquarium-eel",
+   "orientation": "east",
+   "name": "Aquarium"
+  },
+  {
+   "index": 466,
+   "texture": "aquarium-eel-n",
+   "room": "aquarium-eel",
+   "orientation": "north",
+   "name": "Aquarium"
+  },
+  {
+   "index": 467,
+   "texture": "aquarium-eel-s",
+   "room": "aquarium-eel",
+   "orientation": "south",
+   "name": "Aquarium"
+  },
+  {
+   "index": 468,
+   "texture": "aquarium-eel-w",
+   "room": "aquarium-eel",
+   "orientation": "west",
+   "name": "Aquarium"
+  },
+  {
+   "index": 469,
+   "texture": "aquarium-goldfish-e",
+   "room": "aquarium-goldfish",
+   "orientation": "east",
+   "name": "Aquarium"
+  },
+  {
+   "index": 470,
+   "texture": "aquarium-goldfish-n",
+   "room": "aquarium-goldfish",
+   "orientation": "north",
+   "name": "Aquarium"
+  },
+  {
+   "index": 471,
+   "texture": "aquarium-goldfish-s",
+   "room": "aquarium-goldfish",
+   "orientation": "south",
+   "name": "Aquarium"
+  },
+  {
+   "index": 472,
+   "texture": "aquarium-goldfish-w",
+   "room": "aquarium-goldfish",
+   "orientation": "west",
+   "name": "Aquarium"
+  },
+  {
+   "index": 473,
+   "texture": "aquarium-starfish-e",
+   "room": "aquarium-starfish",
+   "orientation": "east",
+   "name": "Aquarium"
+  },
+  {
+   "index": 474,
+   "texture": "aquarium-starfish-n",
+   "room": "aquarium-starfish",
+   "orientation": "north",
+   "name": "Aquarium"
+  },
+  {
+   "index": 475,
+   "texture": "aquarium-starfish-s",
+   "room": "aquarium-starfish",
+   "orientation": "south",
+   "name": "Aquarium"
+  },
+  {
+   "index": 476,
+   "texture": "aquarium-starfish-w",
+   "room": "aquarium-starfish",
+   "orientation": "west",
+   "name": "Aquarium"
+  },
+  {
+   "index": 477,
+   "texture": "billiardroom-poolhallA-e",
+   "room": "billiardroom-poolhallA",
+   "orientation": "east",
+   "name": "Billiard Room"
+  },
+  {
+   "index": 478,
+   "texture": "billiardroom-poolhallA-n",
+   "room": "billiardroom-poolhallA",
+   "orientation": "north",
+   "name": "Billiard Room"
+  },
+  {
+   "index": 479,
+   "texture": "billiardroom-poolhallA-s",
+   "room": "billiardroom-poolhallA",
+   "orientation": "south",
+   "name": "Billiard Room"
+  },
+  {
+   "index": 480,
+   "texture": "billiardroom-poolhallA-w",
+   "room": "billiardroom-poolhallA",
+   "orientation": "west",
+   "name": "Billiard Room"
+  },
+  {
+   "index": 481,
+   "texture": "billiardroom-poolhallB-e",
+   "room": "billiardroom-poolhallB",
+   "orientation": "east",
+   "name": "Billiard Room"
+  },
+  {
+   "index": 482,
+   "texture": "billiardroom-poolhallB-n",
+   "room": "billiardroom-poolhallB",
+   "orientation": "north",
+   "name": "Billiard Room"
+  },
+  {
+   "index": 483,
+   "texture": "billiardroom-poolhallB-s",
+   "room": "billiardroom-poolhallB",
+   "orientation": "south",
+   "name": "Billiard Room"
+  },
+  {
+   "index": 484,
+   "texture": "billiardroom-poolhallB-w",
+   "room": "billiardroom-poolhallB",
+   "orientation": "west",
+   "name": "Billiard Room"
+  },
+  {
+   "index": 485,
+   "texture": "billiardroom-poolhallC-e",
+   "room": "billiardroom-poolhallC",
+   "orientation": "east",
+   "name": "Billiard Room"
+  },
+  {
+   "index": 486,
+   "texture": "billiardroom-poolhallC-n",
+   "room": "billiardroom-poolhallC",
+   "orientation": "north",
+   "name": "Billiard Room"
+  },
+  {
+   "index": 487,
+   "texture": "billiardroom-poolhallC-s",
+   "room": "billiardroom-poolhallC",
+   "orientation": "south",
+   "name": "Billiard Room"
+  },
+  {
+   "index": 488,
+   "texture": "billiardroom-poolhallC-w",
+   "room": "billiardroom-poolhallC",
+   "orientation": "west",
+   "name": "Billiard Room"
+  },
+  {
+   "index": 489,
+   "texture": "bookshop-e",
+   "room": "bookshop",
+   "orientation": "east",
+   "name": "Bookshop"
+  },
+  {
+   "index": 490,
+   "texture": "bookshop-n",
+   "room": "bookshop",
+   "orientation": "north",
+   "name": "Bookshop"
+  },
+  {
+   "index": 491,
+   "texture": "bookshop-s",
+   "room": "bookshop",
+   "orientation": "south",
+   "name": "Bookshop"
+  },
+  {
+   "index": 492,
+   "texture": "bookshop-w",
+   "room": "bookshop",
+   "orientation": "west",
+   "name": "Bookshop"
+  },
+  {
+   "index": 493,
+   "texture": "cloister-of-dauja",
+   "room": "cloister-of-dauja",
+   "orientation": null,
+   "name": "Cloister"
+  },
+  {
+   "index": 494,
+   "texture": "cloister-of-draxus",
+   "room": "cloister-of-draxus",
+   "orientation": null,
+   "name": "Cloister"
+  },
+  {
+   "index": 495,
+   "texture": "cloister-of-joya",
+   "room": "cloister-of-joya",
+   "orientation": null,
+   "name": "Cloister"
+  },
+  {
+   "index": 496,
+   "texture": "cloister-of-lydia",
+   "room": "cloister-of-lydia",
+   "orientation": null,
+   "name": "Cloister"
+  },
+  {
+   "index": 497,
+   "texture": "cloister-of-mila",
+   "room": "cloister-of-mila",
+   "orientation": null,
+   "name": "Cloister"
+  },
+  {
+   "index": 498,
+   "texture": "cloister-of-orinda",
+   "room": "cloister-of-orinda",
+   "orientation": null,
+   "name": "Cloister"
+  },
+  {
+   "index": 499,
+   "texture": "cloister-of-rynna",
+   "room": "cloister-of-rynna",
+   "orientation": null,
+   "name": "Cloister"
+  },
+  {
+   "index": 500,
+   "texture": "cloister-of-veia",
+   "room": "cloister-of-veia",
+   "orientation": null,
+   "name": "Cloister"
+  },
+  {
+   "index": 501,
+   "texture": "greenhousesecret-n",
+   "room": "greenhousesecret",
+   "orientation": "north",
+   "name": "Greenhouse"
+  },
+  {
+   "index": 502,
+   "texture": "greenhousesecret-s",
+   "room": "greenhousesecret",
+   "orientation": "south",
+   "name": "Greenhouse"
+  },
+  {
+   "index": 503,
+   "texture": "guestbedroom-geist-e",
+   "room": "guestbedroom-geist",
+   "orientation": "east",
+   "name": "Guest Bedroom"
+  },
+  {
+   "index": 504,
+   "texture": "guestbedroom-geist-n",
+   "room": "guestbedroom-geist",
+   "orientation": "north",
+   "name": "Guest Bedroom"
+  },
+  {
+   "index": 505,
+   "texture": "guestbedroom-geist-s",
+   "room": "guestbedroom-geist",
+   "orientation": "south",
+   "name": "Guest Bedroom"
+  },
+  {
+   "index": 506,
+   "texture": "guestbedroom-geist-w",
+   "room": "guestbedroom-geist",
+   "orientation": "west",
+   "name": "Guest Bedroom"
+  },
+  {
+   "index": 507,
+   "texture": "guestbedroom-guess-e",
+   "room": "guestbedroom-guess",
+   "orientation": "east",
+   "name": "Guest Bedroom"
+  },
+  {
+   "index": 508,
+   "texture": "guestbedroom-guess-n",
+   "room": "guestbedroom-guess",
+   "orientation": "north",
+   "name": "Guest Bedroom"
+  },
+  {
+   "index": 509,
+   "texture": "guestbedroom-guess-s",
+   "room": "guestbedroom-guess",
+   "orientation": "south",
+   "name": "Guest Bedroom"
+  },
+  {
+   "index": 510,
+   "texture": "guestbedroom-guess-w",
+   "room": "guestbedroom-guess",
+   "orientation": "west",
+   "name": "Guest Bedroom"
+  },
+  {
+   "index": 511,
+   "texture": "guestbedroom-quest-e",
+   "room": "guestbedroom-quest",
+   "orientation": "east",
+   "name": "Guest Bedroom"
+  },
+  {
+   "index": 512,
+   "texture": "guestbedroom-quest-n",
+   "room": "guestbedroom-quest",
+   "orientation": "north",
+   "name": "Guest Bedroom"
+  },
+  {
+   "index": 513,
+   "texture": "guestbedroom-quest-s",
+   "room": "guestbedroom-quest",
+   "orientation": "south",
+   "name": "Guest Bedroom"
+  },
+  {
+   "index": 514,
+   "texture": "guestbedroom-quest-w",
+   "room": "guestbedroom-quest",
+   "orientation": "west",
+   "name": "Guest Bedroom"
+  },
+  {
+   "index": 515,
+   "texture": "nook-2keys-e",
+   "room": "nook-2keys",
+   "orientation": "east",
+   "name": "Nook"
+  },
+  {
+   "index": 516,
+   "texture": "nook-2keys-n",
+   "room": "nook-2keys",
+   "orientation": "north",
+   "name": "Nook"
+  },
+  {
+   "index": 517,
+   "texture": "nook-2keys-s",
+   "room": "nook-2keys",
+   "orientation": "south",
+   "name": "Nook"
+  },
+  {
+   "index": 518,
+   "texture": "nook-2keys-w",
+   "room": "nook-2keys",
+   "orientation": "west",
+   "name": "Nook"
+  },
+  {
+   "index": 519,
+   "texture": "nook-breakfast-e",
+   "room": "nook-breakfast",
+   "orientation": "east",
+   "name": "Nook"
+  },
+  {
+   "index": 520,
+   "texture": "nook-breakfast-n",
+   "room": "nook-breakfast",
+   "orientation": "north",
+   "name": "Nook"
+  },
+  {
+   "index": 521,
+   "texture": "nook-breakfast-s",
+   "room": "nook-breakfast",
+   "orientation": "south",
+   "name": "Nook"
+  },
+  {
+   "index": 522,
+   "texture": "nook-breakfast-w",
+   "room": "nook-breakfast",
+   "orientation": "west",
+   "name": "Nook"
+  },
+  {
+   "index": 523,
+   "texture": "nook-reading-e",
+   "room": "nook-reading",
+   "orientation": "east",
+   "name": "Nook"
+  },
+  {
+   "index": 524,
+   "texture": "nook-reading-n",
+   "room": "nook-reading",
+   "orientation": "north",
+   "name": "Nook"
+  },
+  {
+   "index": 525,
+   "texture": "nook-reading-s",
+   "room": "nook-reading",
+   "orientation": "south",
+   "name": "Nook"
+  },
+  {
+   "index": 526,
+   "texture": "nook-reading-w",
+   "room": "nook-reading",
+   "orientation": "west",
+   "name": "Nook"
+  },
+  {
+   "index": 527,
+   "texture": "nursery-10-e",
+   "room": "nursery-10",
+   "orientation": "east",
+   "name": "Nursery"
+  },
+  {
+   "index": 528,
+   "texture": "nursery-10-n",
+   "room": "nursery-10",
+   "orientation": "north",
+   "name": "Nursery"
+  },
+  {
+   "index": 529,
+   "texture": "nursery-10-s",
+   "room": "nursery-10",
+   "orientation": "south",
+   "name": "Nursery"
+  },
+  {
+   "index": 530,
+   "texture": "nursery-10-w",
+   "room": "nursery-10",
+   "orientation": "west",
+   "name": "Nursery"
+  },
+  {
+   "index": 531,
+   "texture": "nursery-indoor-e",
+   "room": "nursery-indoor",
+   "orientation": "east",
+   "name": "Nursery"
+  },
+  {
+   "index": 532,
+   "texture": "nursery-indoor-n",
+   "room": "nursery-indoor",
+   "orientation": "north",
+   "name": "Nursery"
+  },
+  {
+   "index": 533,
+   "texture": "nursery-indoor-s",
+   "room": "nursery-indoor",
+   "orientation": "south",
+   "name": "Nursery"
+  },
+  {
+   "index": 534,
+   "texture": "nursery-indoor-w",
+   "room": "nursery-indoor",
+   "orientation": "west",
+   "name": "Nursery"
+  },
+  {
+   "index": 535,
+   "texture": "nursesstation-e",
+   "room": "nursesstation",
+   "orientation": "east",
+   "name": "Nurses Station"
+  },
+  {
+   "index": 536,
+   "texture": "nursesstation-n",
+   "room": "nursesstation",
+   "orientation": "north",
+   "name": "Nurses Station"
+  },
+  {
+   "index": 537,
+   "texture": "nursesstation-s",
+   "room": "nursesstation",
+   "orientation": "south",
+   "name": "Nurses Station"
+  },
+  {
+   "index": 538,
+   "texture": "nursesstation-w",
+   "room": "nursesstation",
+   "orientation": "west",
+   "name": "Nurses Station"
+  },
+  {
+   "index": 539,
+   "texture": "parlor-3gems-e",
+   "room": "parlor-3gems",
+   "orientation": "east",
+   "name": "Parlor"
+  },
+  {
+   "index": 540,
+   "texture": "parlor-3gems-n",
+   "room": "parlor-3gems",
+   "orientation": "north",
+   "name": "Parlor"
+  },
+  {
+   "index": 541,
+   "texture": "parlor-3gems-s",
+   "room": "parlor-3gems",
+   "orientation": "south",
+   "name": "Parlor"
+  },
+  {
+   "index": 542,
+   "texture": "parlor-3gems-w",
+   "room": "parlor-3gems",
+   "orientation": "west",
+   "name": "Parlor"
+  },
+  {
+   "index": 543,
+   "texture": "parlor-funeral-e",
+   "room": "parlor-funeral",
+   "orientation": "east",
+   "name": "Parlor"
+  },
+  {
+   "index": 544,
+   "texture": "parlor-funeral-n",
+   "room": "parlor-funeral",
+   "orientation": "north",
+   "name": "Parlor"
+  },
+  {
+   "index": 545,
+   "texture": "parlor-funeral-s",
+   "room": "parlor-funeral",
+   "orientation": "south",
+   "name": "Parlor"
+  },
+  {
+   "index": 546,
+   "texture": "parlor-funeral-w",
+   "room": "parlor-funeral",
+   "orientation": "west",
+   "name": "Parlor"
+  },
+  {
+   "index": 547,
+   "texture": "parlor-windup-e",
+   "room": "parlor-windup",
+   "orientation": "east",
+   "name": "Parlor"
+  },
+  {
+   "index": 548,
+   "texture": "parlor-windup-n",
+   "room": "parlor-windup",
+   "orientation": "north",
+   "name": "Parlor"
+  },
+  {
+   "index": 549,
+   "texture": "parlor-windup-s",
+   "room": "parlor-windup",
+   "orientation": "south",
+   "name": "Parlor"
+  },
+  {
+   "index": 550,
+   "texture": "parlor-windup-w",
+   "room": "parlor-windup",
+   "orientation": "west",
+   "name": "Parlor"
+  },
+  {
+   "index": 551,
+   "texture": "secretgarden-n",
+   "room": "secretgarden",
+   "orientation": "north",
+   "name": "Secret Garden"
+  },
+  {
+   "index": 552,
+   "texture": "spareroom-foyer-e",
+   "room": "spareroom-foyer",
+   "orientation": "east",
+   "name": "Spare Room"
+  },
+  {
+   "index": 553,
+   "texture": "spareroom-foyer-n",
+   "room": "spareroom-foyer",
+   "orientation": "north",
+   "name": "Spare Room"
+  },
+  {
+   "index": 554,
+   "texture": "spareroom-greathall-e",
+   "room": "spareroom-greathall",
+   "orientation": "east",
+   "name": "Spare Room"
+  },
+  {
+   "index": 555,
+   "texture": "spareroom-greathall-n",
+   "room": "spareroom-greathall",
+   "orientation": "north",
+   "name": "Spare Room"
+  },
+  {
+   "index": 556,
+   "texture": "spareroom-ladyships-e",
+   "room": "spareroom-ladyships",
+   "orientation": "east",
+   "name": "Spare Room"
+  },
+  {
+   "index": 557,
+   "texture": "spareroom-ladyships-n",
+   "room": "spareroom-ladyships",
+   "orientation": "north",
+   "name": "Spare Room"
+  },
+  {
+   "index": 558,
+   "texture": "spareroom-master-e",
+   "room": "spareroom-master",
+   "orientation": "east",
+   "name": "Spare Room"
+  },
+  {
+   "index": 559,
+   "texture": "spareroom-master-n",
+   "room": "spareroom-master",
+   "orientation": "north",
+   "name": "Spare Room"
+  },
+  {
+   "index": 560,
+   "texture": "spareroom-patio-e",
+   "room": "spareroom-patio",
+   "orientation": "east",
+   "name": "Spare Room"
+  },
+  {
+   "index": 561,
+   "texture": "spareroom-patio-n",
+   "room": "spareroom-patio",
+   "orientation": "north",
+   "name": "Spare Room"
+  },
+  {
+   "index": 562,
+   "texture": "spareroom-secret-e",
+   "room": "spareroom-secret",
+   "orientation": "east",
+   "name": "Spare Room"
+  },
+  {
+   "index": 563,
+   "texture": "spareroom-secret-n",
+   "room": "spareroom-secret",
+   "orientation": "north",
+   "name": "Spare Room"
+  },
+  {
+   "index": 564,
+   "texture": "spareroom-secret-s",
+   "room": "spareroom-secret",
+   "orientation": "south",
+   "name": "Spare Room"
+  },
+  {
+   "index": 565,
+   "texture": "spareroom-secret-w",
+   "room": "spareroom-secret",
+   "orientation": "west",
+   "name": "Spare Room"
+  },
+  {
+   "index": 566,
+   "texture": "spareroom-servants-e",
+   "room": "spareroom-servants",
+   "orientation": "east",
+   "name": "Spare Room"
+  },
+  {
+   "index": 567,
+   "texture": "spareroom-servants-n",
+   "room": "spareroom-servants",
+   "orientation": "north",
+   "name": "Spare Room"
+  },
+  {
+   "index": 568,
+   "texture": "spareroom-terrace-e",
+   "room": "spareroom-terrace",
+   "orientation": "east",
+   "name": "Spare Room"
+  },
+  {
+   "index": 569,
+   "texture": "spareroom-terrace-n",
+   "room": "spareroom-terrace",
+   "orientation": "north",
+   "name": "Spare Room"
+  },
+  {
+   "index": 570,
+   "texture": "spareroom-veranda-e",
+   "room": "spareroom-veranda",
+   "orientation": "east",
+   "name": "Spare Room"
+  },
+  {
+   "index": 571,
+   "texture": "spareroom-veranda-n",
+   "room": "spareroom-veranda",
+   "orientation": "north",
+   "name": "Spare Room"
+  },
+  {
+   "index": 572,
+   "texture": "terrace-w",
+   "room": "terrace",
+   "orientation": "west",
+   "name": "Terrace"
+  },
+  {
+   "index": 573,
+   "texture": "thearmory-e",
+   "room": "thearmory",
+   "orientation": "east",
+   "name": "The Armory"
+  },
+  {
+   "index": 574,
+   "texture": "thearmory-n",
+   "room": "thearmory",
+   "orientation": "north",
+   "name": "The Armory"
+  },
+  {
+   "index": 575,
+   "texture": "thearmory-s",
+   "room": "thearmory",
+   "orientation": "south",
+   "name": "The Armory"
+  },
+  {
+   "index": 576,
+   "texture": "thearmory-w",
+   "room": "thearmory",
+   "orientation": "west",
+   "name": "The Armory"
+  },
+  {
+   "index": 577,
+   "texture": "tunnel-n",
+   "room": "tunnel",
+   "orientation": "north",
+   "name": "Tunnel"
+  },
+  {
+   "index": 578,
+   "texture": "westwinghall-n",
+   "room": "westwinghall",
+   "orientation": "north",
+   "name": "West Wing Hall"
+  }
+ ],
+ "unresolved": []
+}

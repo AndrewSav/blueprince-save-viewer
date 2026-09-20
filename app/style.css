@@ -1,0 +1,440 @@
+:root {
+  --bg: #12131a;
+  --panel: #191b24;
+  --panel-2: #20222d;
+  --line: #2c2f3d;
+  --text: #e6e7ee;
+  --muted: #9296aa;
+  --accent: #7fb2ff;
+  --warn-bg: #3a2f14;
+  --warn-line: #7a6320;
+  --warn-text: #f0dba6;
+  --error-bg: #3a1a1f;
+  --error-line: #7a2c36;
+  --error-text: #f3b8c0;
+  --shadow: 0 8px 24px rgba(0, 0, 0, .4);
+  --mono: ui-monospace, "Cascadia Mono", "SF Mono", Menlo, Consolas, monospace;
+}
+
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme="dark"]) {
+    --bg: #f6f7fa;
+    --panel: #ffffff;
+    --panel-2: #f0f2f7;
+    --line: #dcdfe8;
+    --text: #1b1d26;
+    --muted: #61657a;
+    --accent: #2563c4;
+    --warn-bg: #fdf4d8;
+    --warn-line: #d8bd6a;
+    --warn-text: #6b5411;
+    --error-bg: #fdeaec;
+    --error-line: #e2a4ac;
+    --error-text: #8a2230;
+    --shadow: 0 8px 24px rgba(20, 24, 40, .16);
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 15px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+header, .privacy, main { max-width: 1180px; margin-left: auto; margin-right: auto; padding: 0 16px; }
+.muted { color: var(--muted); }
+code { font-family: var(--mono); font-size: 0.92em; }
+
+/* ---- header: title and build id on one line, one small privacy line ---- */
+.top {
+  display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between;
+  gap: 4px 16px; padding-top: 16px;
+}
+h1 { font-size: 20px; margin: 0; letter-spacing: -0.01em; }
+/* Ctrl-click on the title turns debug mode on or off; the mark says it is on. `.tag` sets a
+   display, which would otherwise win over the hidden attribute. */
+#debug-mark[hidden] { display: none; }
+.build-id { font-size: 12px; color: var(--muted); display: inline-flex; align-items: center; gap: 4px; }
+#dict-version { font-family: var(--mono); color: var(--text); }
+/* The privacy line, the debug tools (when there are any) and the file name, spread across one
+   line. None of them wraps inside: a three-column grid squeezed the side columns until the
+   privacy line broke in two, so when the window is too narrow a whole piece moves down instead.
+   The debug controls sit side by side, centred on each other, not on their text baselines -
+   the dormant picker is taller than the fact-sheet box. */
+.privacy {
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 4px 16px;
+  font-size: 12px; color: var(--muted); margin-top: 2px; margin-bottom: 12px;
+}
+.privacy > * { white-space: nowrap; }
+#debug-tools { display: inline-flex; align-items: center; gap: 12px; }
+#debug-tools:empty { display: none; }
+#file-name { font-family: var(--mono); text-align: right; margin-left: auto; }
+
+/* ---- drop zone ---- */
+#drop {
+  display: flex; flex-direction: column; gap: 6px; align-items: center;
+  padding: 44px 20px; border: 2px dashed var(--line); border-radius: 12px;
+  background: var(--panel); cursor: pointer; text-align: center;
+  transition: border-color .15s, background .15s;
+}
+#drop:hover, #drop:focus-visible, #drop.over { border-color: var(--accent); background: var(--panel-2); }
+#drop strong { font-size: 17px; }
+#drop .muted { font-size: 13px; }
+
+/* ---- messages ---- */
+.warn, .error {
+  padding: 10px 14px; border-radius: 8px; border: 1px solid; margin: 14px 0;
+}
+.warn { background: var(--warn-bg); border-color: var(--warn-line); color: var(--warn-text); }
+.error { background: var(--error-bg); border-color: var(--error-line); color: var(--error-text); }
+.warn.compact { margin: 6px 0; padding: 5px 10px; font-size: 13px; }
+.key-note { font-size: 14px; }
+.key-note.muted { margin: 10px 2px; font-size: 13px; }
+button.action {
+  padding: 3px 10px; border-radius: 8px; border: 1px solid var(--warn-line);
+  background: var(--panel); color: var(--text); font: inherit; font-size: 13px; cursor: pointer;
+}
+button.action:hover { border-color: var(--accent); }
+button.link-button {
+  padding: 0; border: 0; background: none; color: var(--accent); font: inherit;
+  text-decoration: underline; cursor: pointer;
+}
+#status { color: var(--muted); }
+
+/* ---- what is common to the file: SaveFileInfo and CurrentSave, a line each ---- */
+#common {
+  padding: 6px 12px; margin: 0 0 8px;
+  background: var(--panel); border: 1px solid var(--line); border-radius: 10px;
+}
+.fact-line { display: flex; flex-wrap: wrap; align-items: center; gap: 2px 18px; padding: 3px 0; }
+.fact-line + .fact-line { border-top: 1px solid var(--line); }
+.container { display: inline-flex; align-items: center; gap: 2px; min-width: 112px; }
+.container-name { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; }
+.fact { display: inline-flex; align-items: center; gap: 6px; }
+.fact-key { font-size: 11px; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); }
+.fact-value { font-family: var(--mono); font-size: 13px; }
+.match { font-size: 11px; }
+.match.yes { color: var(--muted); }
+.match.no { color: var(--warn-text); font-weight: 600; }
+
+/* ---- profiles ---- */
+#profiles { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 8px; margin: 0 0 6px; }
+#profiles > .container-name { margin-right: 4px; }
+.profile {
+  display: inline-flex; align-items: baseline; gap: 6px;
+  padding: 2px 11px; border-radius: 999px; cursor: pointer;
+  background: var(--panel); color: var(--text);
+  border: 1px solid var(--line); font: inherit;
+}
+.profile:hover { border-color: var(--accent); }
+.profile.selected { border-color: var(--accent); background: var(--panel-2); box-shadow: inset 0 0 0 1px var(--accent); }
+.profile-name { font-weight: 600; font-size: 13.5px; }
+.profile-day { font-size: 12px; color: var(--muted); }
+.backups { font-size: 12.5px; display: inline-flex; align-items: center; }
+
+/* ---- pages ---- */
+#nav {
+  display: flex; flex-wrap: wrap; align-items: flex-end; gap: 2px;
+  border-bottom: 1px solid var(--line); margin: 8px 0 12px;
+}
+#nav a {
+  padding: 6px 12px; color: var(--muted); text-decoration: none; font-size: 14px;
+  border-bottom: 2px solid transparent; margin-bottom: -1px;
+}
+#nav a:hover { color: var(--text); }
+#nav a.current { color: var(--text); border-bottom-color: var(--accent); }
+.dormant-toggle { display: inline-flex; align-items: center; gap: 4px; font-size: 12px; color: var(--muted); cursor: pointer; }
+
+/* ---- the field list: a filter and a group at a time ---- */
+.toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 0 0 10px; }
+input.filter, select.group-select {
+  padding: 6px 10px; border-radius: 8px; border: 1px solid var(--line);
+  background: var(--panel); color: var(--text); font: inherit; font-size: 14px;
+}
+input.filter { flex: 1 1 240px; min-width: 0; }
+select.group-select:disabled { opacity: .5; }
+.list-note { font-size: 12.5px; }
+
+table { width: 100%; border-collapse: collapse; background: var(--panel); border-radius: 10px; overflow: hidden; }
+tr + tr { border-top: 1px solid var(--line); }
+th, td { text-align: left; padding: 7px 14px; vertical-align: top; font-weight: normal; }
+table.fields th { width: 28%; }
+.field-name { font-weight: 600; }
+.group-label { display: block; font-size: 11px; color: var(--muted); }
+td.value { width: 20%; font-family: var(--mono); font-size: 13px; word-break: break-word; }
+td.desc { color: var(--muted); font-size: 13.5px; }
+
+/* ---- confidence tags ---- */
+.tag {
+  display: inline-block; margin-left: 7px; padding: 1px 6px; border-radius: 999px;
+  font-size: 10.5px; text-transform: uppercase; letter-spacing: .04em;
+  border: 1px solid var(--line); color: var(--muted); vertical-align: 1px;
+}
+.tag.unconfirmed { border-color: var(--warn-line); color: var(--warn-text); }
+.tag.open { border-color: var(--warn-line); color: var(--warn-text); border-style: dotted; }
+.tag.unknown { border-color: var(--error-line); color: var(--error-text); }
+.tag.possible { border-color: var(--accent); color: var(--accent); }
+/* A dormant value the debug toggle has brought back: dashed tag, and the value itself muted. */
+.tag.dormant { border-style: dashed; }
+.tag.unexpected { border-color: var(--error-line); color: var(--error-text); font-weight: 700; }
+tr.dormant .field-name, tr.dormant td, .fact.dormant .fact-value,
+.array-block.dormant > :not(h3), .table-section.dormant > :not(summary) { opacity: .6; }
+.dormant-count { color: var(--muted); }
+.dormant-mode { font-size: 12px; }
+
+/* ---- fact sheets (debug, app/facts.js): folded under each field row ---- */
+tr.facts-row { border-top: none; }
+tr.facts-row > td { padding: 0 14px 8px; }
+details.facts > summary { cursor: pointer; font-size: 12px; color: var(--muted); }
+details.facts[open] > summary { margin-bottom: 6px; }
+.fact-sheet { font-size: 12.5px; background: var(--panel-2); border-radius: 8px; padding: 8px 12px; }
+.fact-sheet p { margin: 0 0 6px; }
+.fs-head { color: var(--muted); }
+.fs-checks { margin: 0 0 8px; padding: 6px 10px 6px 26px; border: 1px solid var(--warn-line);
+             background: var(--warn-bg); color: var(--warn-text); border-radius: 6px; }
+.fs-values { display: grid; grid-template-columns: max-content 1fr; gap: 2px 12px; margin: 0 0 8px; }
+.fs-values dt { font-family: var(--mono); }
+.fs-values dd { margin: 0; color: var(--muted); word-break: break-word; }
+.fs-refs > summary { cursor: pointer; font-weight: 600; margin: 4px 0; }
+.fs-list { margin: 0; padding-left: 22px; }
+.fs-list > li { margin: 0 0 6px; }
+.fs-list code { font-size: 11.5px; word-break: break-word; }
+.fs-where strong { font-weight: 600; }
+.fs-list > li.fs-dead { opacity: .55; }
+/* Where a read's copy goes: nested, each level folded until asked for. */
+.fs-copies > summary { cursor: pointer; color: var(--muted); margin: 2px 0; }
+.fs-copy { margin: 0 0 4px 14px; padding-left: 8px; border-left: 1px solid var(--line); }
+.fs-uses, .fs-outcomes { margin: 2px 0; padding-left: 18px; }
+.fs-uses li.fs-dead { opacity: .55; }
+.fs-step, .fs-handoff { margin-left: 10px; }
+/* Where a field's value crosses into C#. */
+.fs-native { margin: 6px 0; padding: 4px 10px; border-left: 3px solid var(--line); }
+.fs-native-title { color: var(--muted); font-size: 12px; margin-top: 2px; }
+.fs-native ul { margin: 2px 0; padding-left: 18px; }
+.fs-native code { font-size: 11.5px; }
+.fs-native-use { font-style: italic; }
+.fs-flag { color: var(--error-text); }
+.fs-flag.warn { color: var(--warn-text); }
+
+/* ---- (i) badges and the popup they open (app/tip.js) ---- */
+.info {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 15px; height: 15px; margin-left: 4px; border-radius: 50%;
+  border: 1px solid var(--muted); color: var(--muted);
+  font: italic 600 10px/1 Georgia, "Times New Roman", serif;
+  user-select: none; flex: none;
+}
+.info:hover, .info:focus-visible { border-color: var(--accent); color: var(--accent); outline: none; }
+.has-tip:focus-visible { outline: 1px solid var(--accent); outline-offset: 1px; }
+#tip {
+  position: absolute; z-index: 10; max-width: 360px;
+  padding: 10px 12px; border-radius: 10px;
+  background: var(--panel-2); color: var(--text); border: 1px solid var(--line);
+  box-shadow: var(--shadow); font-size: 13px; line-height: 1.45;
+  white-space: pre-line; pointer-events: none;
+}
+#tip p { margin: 0; }
+/* A long list of values, in as many columns as fit (tip.js fitColumns) */
+#tip.tip-list { max-width: none; }
+#tip .tip-cols { display: grid; grid-auto-flow: column; column-gap: 20px; }
+#tip .tip-cols > div { white-space: nowrap; }
+/* A small grid in a note: lines with tabs (tip.js tableParts) */
+#tip .tip-table { border-collapse: collapse; margin: 6px 0 2px; }
+#tip .tip-table th, #tip .tip-table td { padding: 1px 0 1px 14px; text-align: right; white-space: nowrap; }
+#tip .tip-table th:first-child, #tip .tip-table td:first-child { padding-left: 0; text-align: left; }
+#tip .tip-table th { color: var(--muted); font-weight: 600; font-size: 12px; border-bottom: 1px solid var(--line); }
+#tip .tip-field { color: var(--muted); font-size: 12px; margin-bottom: 5px; }
+#tip .tip-field b { color: var(--text); font-family: var(--mono); font-size: 12px; }
+
+/* ---- array pages ---- */
+.array-block, .table-section { margin: 0 0 18px; }
+.array-block h3 { font-size: 14px; margin: 0; }
+.table-section > summary { cursor: pointer; font-size: 14px; font-weight: 600; }
+.explain { font-size: 13px; margin: 0 0 6px; }
+.empty { font-size: 13px; margin: 0; }
+.raw { margin-left: 6px; color: var(--muted); font-family: var(--mono); font-size: 11.5px; }
+.raw::before { content: "("; }
+.raw::after { content: ")"; }
+.array-table { width: auto; min-width: 50%; background: var(--panel); border-radius: 8px; margin: 2px 0 6px; }
+.array-table th { font-size: 11px; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); }
+.array-table th, .array-table td { padding: 3px 14px; }
+.array-list { margin: 2px 0 6px; padding-left: 30px; columns: 3 16em; column-gap: 32px; font-size: 13.5px; }
+ul.array-list { list-style: none; padding-left: 0; }
+.array-list li { break-inside: avoid; padding: 1px 0; }
+.array-list.plain { font-family: var(--mono); font-size: 12.5px; columns: 6 7em; }
+.array-entry.sentinel { color: var(--muted); font-style: italic; }
+.array-entry.past { color: var(--muted); }
+.order-group { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: .06em;
+  color: var(--muted); margin: 8px 0 2px; }
+td.index { color: var(--muted); font-variant-numeric: tabular-nums; }
+/* Column headers are buttons for sorting; they should read as headers, not as links. */
+button.sort { font: inherit; color: inherit; text-transform: inherit; letter-spacing: inherit;
+  background: none; border: 0; padding: 0; cursor: pointer; }
+button.sort:hover { color: var(--text); }
+.table-filter { display: block; margin: 4px 0 6px; font-size: 13px; cursor: pointer; }
+.entry-key { font-weight: 600; }
+
+/* ---- a field shown on its own page, with what moves it ---- */
+.homed { margin: 0 0 18px; }
+.homed-head { display: flex; align-items: baseline; gap: 8px; }
+.homed-name { font-size: 14px; font-weight: 600; }
+.homed-value { font-family: var(--mono); font-size: 17px; }
+table.scoring { width: auto; min-width: 0; margin: 4px 0 0; }
+table.scoring td:not(:first-child) { font-family: var(--mono); font-size: 12.5px; }
+
+/* ---- Parlor puzzles: the three boxes and what is written on them ---- */
+.array-list.puzzles { columns: 1; padding-left: 26px; }
+.array-list.puzzles > li { padding: 5px 0; }
+.array-list.puzzles.past > li, .array-list.puzzles.future > li { padding: 3px 0; }
+dl.puzzle { display: grid; grid-template-columns: max-content 1fr; gap: 1px 10px; margin: 2px 0 0; }
+dl.puzzle dt {
+  font-size: 10.5px; text-transform: uppercase; letter-spacing: .05em;
+  color: var(--muted); padding-top: 2px;
+}
+dl.puzzle dd { margin: 0; font-size: 13px; }
+.solution { color: var(--warn-text); font-weight: 600; font-size: 12px; }
+.unknown { color: var(--warn-text); }
+
+/* ---- the day view: picker, name, counters, the house ---- */
+.day-picker select.day-select {
+  flex: 0 1 auto; min-width: 0; max-width: 100%;
+  padding: 6px 10px; border-radius: 8px; border: 1px solid var(--line);
+  background: var(--panel); color: var(--text); font: inherit; font-size: 14px;
+}
+.day-picker button.step {
+  padding: 5px 11px; border-radius: 8px; border: 1px solid var(--line);
+  background: var(--panel); color: var(--text); font: inherit; font-size: 13px; cursor: pointer;
+}
+.day-picker button.step:hover:not(:disabled) { border-color: var(--accent); }
+.day-picker button.step:disabled { opacity: .4; cursor: default; }
+.day-head { margin: 4px 0 2px; }
+.day-number { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
+.day-name { display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 8px; }
+h2.estate-name { font-size: 22px; margin: 0; letter-spacing: -0.01em; }
+/* A word that opens its own popup - each word of the estate name, and a phrase in a field's
+   explanation that carries a note; the dotted line says so without a help cursor. */
+.name-part, .noted {
+  text-decoration: underline dotted var(--muted); text-decoration-thickness: 1px;
+  text-underline-offset: 5px;
+}
+.noted { text-underline-offset: 3px; }
+.name-part:hover, .name-part:focus-visible, .noted:hover, .noted:focus-visible { text-decoration-color: var(--accent); }
+.name-codes { font-size: 12px; }
+.day-facts { margin: 4px 0 14px; }
+.day-counters h3, .day-map h3 {
+  display: flex; align-items: center; gap: 2px;
+  font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em;
+  color: var(--muted); margin: 0 0 6px;
+}
+.day-counters { margin: 0 0 18px; }
+.counter-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(118px, 1fr)); gap: 6px; }
+.counter {
+  display: flex; flex-direction: column; gap: 1px; padding: 7px 10px;
+  background: var(--panel); border: 1px solid var(--line); border-radius: 8px;
+}
+.counter-value { font-family: var(--mono); font-size: 20px; line-height: 1.1; font-variant-numeric: tabular-nums; }
+.counter-label { font-size: 12px; color: var(--muted); }
+.counter.zero .counter-value { color: var(--muted); }
+.counter.zero { background: transparent; }
+.house-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 3px; max-width: 620px; }
+.tile {
+  min-height: 46px; padding: 4px 6px; display: flex; align-items: center; justify-content: center;
+  text-align: center; font-size: 12px; line-height: 1.2; word-break: break-word;
+  background: var(--panel-2); border: 1px solid var(--line); border-radius: 5px;
+}
+.tile.empty { background: transparent; border-style: dashed; }
+.outer-room { font-size: 13px; margin: 8px 0 0; display: flex; align-items: baseline; gap: 6px; }
+
+/* ---- the Stats page: rankings as cards, then the totals ---- */
+.stats-rankings, .stats-section { margin: 0 0 20px; }
+.stats-rankings > h3, .stats-section > h3 {
+  display: flex; align-items: center; gap: 2px;
+  font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em;
+  color: var(--muted); margin: 0 0 6px;
+}
+.ranking-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 8px; }
+.ranking {
+  padding: 8px 12px 10px; background: var(--panel); border: 1px solid var(--line); border-radius: 8px;
+}
+.ranking h4 { display: flex; align-items: center; gap: 2px; font-size: 13px; margin: 0 0 4px; }
+.ranking-list { list-style: none; margin: 0; padding: 0; font-size: 13.5px; }
+.ranking-list li { display: grid; grid-template-columns: 1.4em 1fr auto; gap: 6px; padding: 2px 0; align-items: baseline; }
+.ranking-list .place { color: var(--muted); font-variant-numeric: tabular-nums; }
+.ranking-value { font-family: var(--mono); font-size: 12.5px; color: var(--muted); text-align: right; }
+.tie-note { font-size: 12px; margin: 6px 0 0; }
+.stats-table td.num, .stats-table th.num { text-align: right; font-variant-numeric: tabular-nums; }
+.stats-guid { font-size: 11.5px; font-family: var(--mono); }
+
+/* One day of the statistics log: the picker chooses All days or a day, below the rankings. */
+.stats-day-picker { margin: 4px 0 14px; }
+.day-summary { margin: 0 0 14px; }
+/* The day stats: four stacks of cards, composed in stats.js to be about the same height. The
+   stacks sit in a grid row, which makes them equally tall, and the last card of each stretches
+   to the bottom - so the columns end on one line. Two columns on a narrower page (stacks 1+2
+   over 3+4, paired to balance), one on a phone. In a card each stat is one line: the name on the
+   left, the value on the right; a long text value takes a line of its own. */
+.day-stat-groups { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; }
+@media (max-width: 1100px) { .day-stat-groups { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 600px) { .day-stat-groups { grid-template-columns: minmax(0, 1fr); } }
+.day-stat-stack { display: flex; flex-direction: column; gap: 10px; }
+.day-stat-stack > .day-stat-group:last-child { flex: 1; }
+.day-stat-group {
+  padding: 7px 12px 6px;
+  background: var(--panel); border: 1px solid var(--line); border-radius: 8px;
+}
+.day-stat-part {
+  margin: 6px 0 1px; padding-top: 5px; border-top: 1px solid var(--line);
+  font-size: 11px; color: var(--muted);
+}
+.day-stat-group h4 + .day-stat-part { margin-top: 0; padding-top: 0; border-top: none; }
+/* A card whose height would vary (Lab's sentences) spans the grid below the stacks: its short
+   stats side by side, each sentence on a line of its own with its name on the left. */
+.day-stat-group.full { grid-column: 1 / -1; }
+.day-stat-group.full dl {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); column-gap: 28px;
+}
+.day-stat-group.full .day-stat.wide {
+  grid-column: 1 / -1; display: flex; justify-content: flex-start; gap: 16px;
+}
+.day-stat-group.full .day-stat.wide dt { flex: none; min-width: 170px; }
+.day-stat-group h4 {
+  margin: 0 0 3px; font-size: 11px; font-weight: 700; text-transform: uppercase;
+  letter-spacing: .05em; color: var(--muted);
+}
+.day-stat-group dl { margin: 0; }
+.day-stat { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; padding: 2px 0; }
+.day-stat dt, .day-stat dd { margin: 0; }
+.day-stat dt { display: flex; align-items: center; font-size: 12.5px; color: var(--muted); }
+.day-stat dd { font-family: var(--mono); font-size: 12.5px; text-align: right; }
+.day-stat.wide { display: block; }
+.day-stat.wide dd { text-align: left; font-family: inherit; font-size: 13px; }
+/* The marker and the (i) sit on the name's line, centred on it and evenly spaced. */
+.day-stat dt .running-total, .day-stat dt .info { margin-left: 5px; vertical-align: 0; }
+/* A running total for the whole profile, not the day's own count; the popup says so. A solid
+   circle with an up arrow cut out of it (after Font Awesome's arrow-alt-circle-up, drawn here
+   so the page loads nothing from outside), painted in the accent colour through a mask. */
+.running-total {
+  display: inline-block; flex: none; width: 15px; height: 15px; margin-left: 6px; vertical-align: -2px;
+  background-color: var(--accent); cursor: default;
+  --circle-up: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M8 .5a7.5 7.5 0 1 0 0 15 7.5 7.5 0 1 0 0-15zM8 3.4l4.4 4.6H9.8v4.3H6.2V8H3.6z'/%3E%3C/svg%3E");
+  -webkit-mask: var(--circle-up) center / contain no-repeat;
+  mask: var(--circle-up) center / contain no-repeat;
+}
+.running-total:hover, .running-total:focus-visible { background-color: var(--text); outline: none; }
+.timeline-table td.num { color: var(--muted); }
+
+main { padding-bottom: 40px; }
+
+@media (max-width: 780px) {
+  table.fields th, td.value { width: auto; }
+  table.fields, table.fields tbody, table.fields tr, table.fields th, table.fields td { display: block; }
+  table.fields tr { padding: 8px 0; }
+  table.fields th, table.fields td { padding: 2px 14px; }
+  .container { min-width: 0; }
+  .privacy > * { white-space: normal; }
+  #debug-tools, .dormant-toggle { flex-wrap: wrap; }
+  #file-name { text-align: left; margin-left: 0; }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "blueprince-save-viewer",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Read a Blue Prince save in the browser and explain what is in it.",
+  "scripts": {
+    "test": "node test/listsort.mjs",
+    "serve": "node serve.mjs"
+  }
+}

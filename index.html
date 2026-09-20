@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Blue Prince save viewer</title>
+<link rel="stylesheet" href="app/style.css">
+<!-- Optional runtime configuration; config.example.js shows its shape. A deployment can
+     supply it, so the encryption password is not in the repository. Without it the page
+     asks for the game's resources.assets and reads the password from that. -->
+<script src="config.js" onerror="void 0"></script>
+</head>
+<body>
+
+<header class="top">
+  <h1 id="title">Blue Prince save viewer <span id="debug-mark" class="tag" hidden>debug</span></h1>
+  <span class="build-id">Game internal build id <span id="dict-version">…</span><span id="build-info"></span></span>
+</header>
+<p class="privacy">
+  <span>The save is read in your browser and never uploaded.</span>
+  <span id="debug-tools"></span>
+  <span id="file-name"></span>
+</p>
+
+<main>
+  <section id="intro">
+    <div id="drop" tabindex="0" role="button">
+      <strong>Drop a save here</strong>
+      <span>or click to choose one</span>
+      <span class="muted">
+        <code>MtHollyBlueprint.es3</code> from the game's save folder (on Windows
+        <code>%USERPROFILE%\AppData\LocalLow\Dogubomb\BLUE PRINCE\storage\</code>),
+        or a file you have already decrypted
+      </span>
+    </div>
+    <input type="file" id="file" hidden>
+    <p id="password-note" class="warn" hidden></p>
+  </section>
+
+  <p id="status" hidden></p>
+  <p id="error" class="error" hidden></p>
+
+  <div id="viewer" hidden>
+    <div id="common"></div>
+    <div id="profiles"></div>
+    <nav id="nav"></nav>
+    <div id="page"></div>
+  </div>
+</main>
+
+<!-- The one popup every (i) badge opens; see app/tip.js. -->
+<div id="tip" role="tooltip" hidden></div>
+
+<script type="module">
+  import { start } from "./app/ui.js";
+  start();
+</script>
+</body>
+</html>

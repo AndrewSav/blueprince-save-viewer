@@ -1,0 +1,8 @@
+# The optional config (config.example.js shows its shape). It can hold the save encryption
+# password, which must never be committed.
+/config.js
+
+# Saves and anything derived from them hold real save data.
+*.es3
+*.es3.json
+*.es3.txt

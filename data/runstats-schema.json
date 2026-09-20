@@ -1,0 +1,3322 @@
+{
+ "game_version": "1.1.10.29",
+ "assembly": "Assembly-CSharp.dll",
+ "assembly_sha256": "4c50f2233b73c733b35a803173d7f049fc6d29a17736ca941e5ba4106c2f4924",
+ "extracted": "2026-10-08",
+ "root": "RunStatsData",
+ "encoding": "DATA is StatsLogger.SaveToIntArray(): raw-deflate JSON packed four bytes per int32, little-endian",
+ "units": {
+  "DayTimelineData.Duration": {
+   "unit": "centiseconds",
+   "verified": true
+  },
+  "DayEventData.T": {
+   "unit": "centiseconds",
+   "verified": true
+  },
+  "RoomStatsEntry.time": {
+   "unit": "seconds",
+   "verified": true
+  },
+  "TimerEntry.Time": {
+   "unit": "centiseconds",
+   "verified": true
+  },
+  "TimerStartEvent.Duration": {
+   "unit": "centiseconds",
+   "verified": true
+  }
+ },
+ "id_names": {
+  "RoomID": {
+   "mapper": "DAY/SAVE SYSTEM/StatsLogger/ROOM MAPPER",
+   "list": "__SYSTEM/The Room Engines | Directory",
+   "fields": [
+    "RoomStatsEntry.id",
+    "DayDraftEvent.RoomID",
+    "DayExternDraftEvent.RoomID",
+    "RarityShiftEvent.RoomID",
+    "DayStatsData.LastRoom",
+    "DayStatsData.OuterRoom"
+   ],
+   "names": [
+    "Slot Zero",
+    "THE FOUNDATION",
+    "ENTRANCE HALL",
+    "SPARE ROOM",
+    "ROTUNDA",
+    "PARLOR",
+    "BILLIARD ROOM",
+    "GALLERY",
+    "ROOM 8",
+    "CLOSET",
+    "WALK-IN CLOSET",
+    "ATTIC",
+    "STOREROOM",
+    "NOOK",
+    "GARAGE",
+    "MUSIC ROOM",
+    "LOCKER ROOM",
+    "DEN",
+    "WINE CELLAR",
+    "TROPHY ROOM",
+    "BALLROOM",
+    "PANTRY",
+    "RUMPUS ROOM",
+    "VAULT",
+    "OFFICE",
+    "DRAWING ROOM",
+    "STUDY",
+    "LIBRARY",
+    "CHAMBER OF MIRRORS",
+    "THE POOL",
+    "DRAFTING STUDIO",
+    "UTILITY CLOSET",
+    "BOILER ROOM",
+    "PUMP ROOM",
+    "SECURITY",
+    "WORKSHOP",
+    "LABORATORY",
+    "SAUNA",
+    "COAT CHECK",
+    "MAIL ROOM",
+    "FREEZER",
+    "DINING ROOM",
+    "OBSERVATORY",
+    "CONFERENCE ROOM",
+    "AQUARIUM",
+    "ANTECHAMBER",
+    "ROOM 46",
+    "BEDROOM",
+    "BOUDOIR",
+    "GUEST BEDROOM",
+    "NURSERY",
+    "SERVANT'S QUARTERS",
+    "BUNK ROOM",
+    "HER LADYSHIP'S CHAMBER",
+    "MASTER BEDROOM",
+    "HALLWAY",
+    "WEST WING HALL",
+    "EAST WING HALL",
+    "CORRIDOR",
+    "PASSAGEWAY",
+    "SECRET PASSAGE",
+    "FOYER",
+    "GREAT HALL",
+    "TERRACE",
+    "PATIO",
+    "COURTYARD",
+    "CLOISTER",
+    "VERANDA",
+    "GREENHOUSE",
+    "MORNING ROOM",
+    "SECRET GARDEN",
+    "COMMISSARY",
+    "KITCHEN",
+    "LOCKSMITH",
+    "SHOWROOM",
+    "LAUNDRY ROOM",
+    "BOOKSHOP",
+    "THE ARMORY",
+    "GIFT SHOP",
+    "LAVATORY",
+    "CHAPEL",
+    "MAID'S CHAMBER",
+    "ARCHIVES",
+    "GYMNASIUM",
+    "DARKROOM",
+    "WEIGHT ROOM",
+    "FURNACE",
+    "DOVECOTE",
+    "THE KENNEL",
+    "CLOCK TOWER",
+    "CLASSROOM",
+    "SOLARIUM",
+    "DORMITORY",
+    "VESTIBULE",
+    "CASINO",
+    "PLANETARIUM",
+    "MECHANARIUM",
+    "TREASURE TROVE",
+    "THRONE ROOM",
+    "LOST & FOUND",
+    "CONSERVATORY",
+    "TUNNEL",
+    "CLOSED EXHIBIT",
+    "TOOLSHED",
+    "BOMB SHELTER",
+    "SCHOOLHOUSE",
+    "SHRINE",
+    "ROOT CELLAR",
+    "HOVEL",
+    "TRADING POST",
+    "TOMB"
+   ],
+   "labels": [
+    "Slot Zero",
+    "The Foundation",
+    "Entrance Hall",
+    "Spare Room",
+    "Rotunda",
+    "Parlor",
+    "Billiard Room",
+    "Gallery",
+    "Room 8",
+    "Closet",
+    "Walk-In Closet",
+    "Attic",
+    "Storeroom",
+    "Nook",
+    "Garage",
+    "Music Room",
+    "Locker Room",
+    "Den",
+    "Wine Cellar",
+    "Trophy Room",
+    "Ballroom",
+    "Pantry",
+    "Rumpus Room",
+    "Vault",
+    "Office",
+    "Drawing Room",
+    "Study",
+    "Library",
+    "Chamber of Mirrors",
+    "The Pool",
+    "Drafting Studio",
+    "Utility Closet",
+    "Boiler Room",
+    "Pump Room",
+    "Security",
+    "Workshop",
+    "Laboratory",
+    "Sauna",
+    "Coat Check",
+    "Mail Room",
+    "Freezer",
+    "Dining Room",
+    "Observatory",
+    "Conference Room",
+    "Aquarium",
+    "Antechamber",
+    "Room 46",
+    "Bedroom",
+    "Boudoir",
+    "Guest Bedroom",
+    "Nursery",
+    "Servant's Quarters",
+    "Bunk Room",
+    "Her Ladyship's Chamber",
+    "Master Bedroom",
+    "Hallway",
+    "West Wing Hall",
+    "East Wing Hall",
+    "Corridor",
+    "Passageway",
+    "Secret Passage",
+    "Foyer",
+    "Great Hall",
+    "Terrace",
+    "Patio",
+    "Courtyard",
+    "Cloister",
+    "Veranda",
+    "Greenhouse",
+    "Morning Room",
+    "Secret Garden",
+    "Commissary",
+    "Kitchen",
+    "Locksmith",
+    "Showroom",
+    "Laundry Room",
+    "Bookshop",
+    "The Armory",
+    "Gift Shop",
+    "Lavatory",
+    "Chapel",
+    "Maid's Chamber",
+    "Archives",
+    "Gymnasium",
+    "Darkroom",
+    "Weight Room",
+    "Furnace",
+    "Dovecote",
+    "The Kennel",
+    "Clock Tower",
+    "Classroom",
+    "Solarium",
+    "Dormitory",
+    "Vestibule",
+    "Casino",
+    "Planetarium",
+    "Mechanarium",
+    "Treasure Trove",
+    "Throne Room",
+    "Lost & Found",
+    "Conservatory",
+    "Tunnel",
+    "Closed Exhibit",
+    "Toolshed",
+    "Shelter",
+    "Schoolhouse",
+    "Shrine",
+    "Root Cellar",
+    "Hovel",
+    "Trading Post",
+    "Tomb"
+   ]
+  },
+  "ItemID": {
+   "mapper": "DAY/SAVE SYSTEM/StatsLogger/ITEM MAPPER",
+   "list": "UI OVERLAY CAM/MENU/Blue Print /Inventory/InventoryGameobjects | InventoryGameobjects",
+   "fields": [
+    "ItemStatsEntry.id",
+    "DayCoatCheckEvent.ItemID"
+   ],
+   "names": [
+    "BASEMENT KEY",
+    "BATTERY PACK",
+    "BROKEN LEVER",
+    "BURNING GLASS",
+    "CAR KEYS",
+    "CHRONOGRAPH",
+    "COIN PURSE",
+    "COMPASS",
+    "COUPON BOOK",
+    "DETECTOR SHOVEL",
+    "DOWSING ROD",
+    "EMERALD BRACELET",
+    "IVORY DICE",
+    "JACK HAMMER",
+    "SANCTUM KEY",
+    "KEYCARD",
+    "LOCK PICK KIT",
+    "LUCKY PURSE",
+    "LUCKY RABBIT'S FOOT",
+    "MAGNIFYING GLASS",
+    "MASTER KEY",
+    "METAL DETECTOR",
+    "MOON PENDANT",
+    "ORNATE COMPASS",
+    "PICK SOUND AMPLIFIER",
+    "POWER HAMMER",
+    "POWERED ELECTROMAGNET",
+    "KEY 8",
+    "RUNNING SHOES",
+    "SALT SHAKER",
+    "SECRET GARDEN KEY",
+    "SHOVEL",
+    "SILVER KEY",
+    "SILVER SPOON",
+    "SLEDGE HAMMER",
+    "SLEEPING MASK",
+    "TREASURE MAP",
+    "VAULT KEY 149",
+    "VAULT KEY 233",
+    "VAULT KEY 304",
+    "VAULT KEY 370",
+    "WIND-UP KEY",
+    "UPGRADE DISK",
+    "STOPWATCH",
+    "HALL PASS",
+    "REPELLENT",
+    "GEAR WRENCH",
+    "TELESCOPE",
+    "WATERING CAN",
+    "MORNING STAR",
+    "TORCH",
+    "KNIGHTS SHIELD",
+    "THE AXE",
+    "MICROCHIP 1",
+    "MICROCHIP 2",
+    "MICROCHIP 3",
+    "DIARY KEY",
+    "LUNCH BOX",
+    "CURSED EFFIGY",
+    "CABINET KEY 1",
+    "CABINET KEY 2",
+    "PAPER CROWN",
+    "CROWN",
+    "ROYAL SCEPTER",
+    "PRISM KEY",
+    "KEY of Aries"
+   ],
+   "labels": [
+    "Basement Key",
+    "Battery Pack",
+    "Broken Lever",
+    "Burning Glass",
+    "Car Keys",
+    "Chronograph",
+    "Coin Purse",
+    "Compass",
+    "Coupon Book",
+    "Detector Shovel",
+    "Dowsing Rod",
+    "Emerald Bracelet",
+    "Ivory Dice",
+    "Jack Hammer",
+    "Sanctum Key",
+    "Keycard",
+    "Lock Pick Kit",
+    "Lucky Purse",
+    "Lucky Rabbit's Foot",
+    "Magnifying Glass",
+    "Master Key",
+    "Metal Detector",
+    "Moon Pendant",
+    "Ornate Drafting Compass",
+    "Pick Sound Amplifier",
+    "Power Hammer",
+    "Powered Electromagnet",
+    "Key 8",
+    "Running Shoes",
+    "Salt Shaker",
+    "Secret Garden Key",
+    "Shovel",
+    "Silver Key",
+    "Silver Spoon",
+    "Sledge Hammer",
+    "Sleep Mask",
+    "Treasure Map",
+    "Vault Key 149",
+    "Vault Key 233",
+    "Vault Key 304",
+    "Vault Key 370",
+    "Wind-Up Key",
+    "Upgrade Disk",
+    "Stopwatch",
+    "Hall Pass",
+    "Repellent",
+    "Gear Wrench",
+    "Telescope",
+    "Watering Can",
+    "Morning Star",
+    "Torch",
+    "Knight's Shield",
+    "The Axe",
+    "Microchip 1",
+    "Microchip 2",
+    "Microchip 3",
+    "Diary Key",
+    "Lunch Box",
+    "Cursed Effigy",
+    "File Cabinet Key (Patio)",
+    "File Cabinet Key (Laundry Room)",
+    "Paper Crown",
+    "Crown of the Blueprints",
+    "Royal Scepter",
+    "Prism Key",
+    "Key of Aries"
+   ]
+  }
+ },
+ "not_serialized": {
+  "RunStatsData.GlobalEvents": "EventStats is not [Serializable], so JsonUtility skips the field although it is public",
+  "RunStatsData._currentRecordingDay": "private and not [SerializeField]",
+  "DayData.DayEvents": "EventStats, as above",
+  "DayTimelineData.Events": "[NonSerialized]; rebuilt at run time from _rawEvents",
+  "RoomStats.Rank_MostDrafted": "ranking lists are rebuilt at run time, never written",
+  "RoomStats.Rank_BestDraftRate": "as above",
+  "RoomStats.Rank_WorstDraftRate": "as above",
+  "RoomStats.Rank_MostGemsSpent": "as above",
+  "RoomStats.Rank_MostTimeSpent": "as above",
+  "ItemStats.Rank_MostFound": "as above",
+  "ItemStats.Rank_MostChecked": "as above"
+ },
+ "raw_events": {
+  "where": "DayData.Timeline._rawEvents",
+  "note": "one JSON string per event: {E: EventID, T: centiseconds, ...subclass fields}",
+  "subclasses": {
+   "DayCoatCheckEvent": [
+    "ItemID"
+   ],
+   "DayDraftEvent": [
+    "RoomID",
+    "Gems"
+   ],
+   "DayExternDraftEvent": [
+    "RoomID",
+    "Gems"
+   ],
+   "RarityShiftEvent": [
+    "RoomID",
+    "Rarity"
+   ],
+   "TimerStartEvent": [
+    "Timer",
+    "Duration"
+   ]
+  }
+ },
+ "types": [
+  {
+   "name": "RunStatsData",
+   "kind": "class",
+   "namespace": "",
+   "base": null,
+   "serializable": true,
+   "fields": [
+    {
+     "name": "SaveGUID",
+     "type": "string",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "GlobalRoomStats",
+     "type": "RoomStats",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "GlobalItemStats",
+     "type": "ItemStats",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "GlobalTimerStats",
+     "type": "TimerStats",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "GlobalBookStats",
+     "type": "BookStats",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "GlobalEvents",
+     "type": "EventStats",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "DaysData",
+     "type": "DaysCollection",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "_currentRecordingDay",
+     "type": "DayData",
+     "static": false,
+     "public": false,
+     "serialized": false
+    }
+   ],
+   "constants": []
+  },
+  {
+   "name": "DayCoatCheckEvent",
+   "kind": "class",
+   "namespace": "",
+   "base": "DayEventData",
+   "serializable": true,
+   "fields": [
+    {
+     "name": "ItemID",
+     "type": "int",
+     "static": false,
+     "public": true,
+     "serialized": true
+    }
+   ],
+   "constants": []
+  },
+  {
+   "name": "DayDraftEvent",
+   "kind": "class",
+   "namespace": "",
+   "base": "DayEventData",
+   "serializable": true,
+   "fields": [
+    {
+     "name": "RoomID",
+     "type": "RoomID",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "Gems",
+     "type": "int",
+     "static": false,
+     "public": true,
+     "serialized": true
+    }
+   ],
+   "constants": []
+  },
+  {
+   "name": "DayExternDraftEvent",
+   "kind": "class",
+   "namespace": "",
+   "base": "DayEventData",
+   "serializable": true,
+   "fields": [
+    {
+     "name": "RoomID",
+     "type": "RoomID",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "Gems",
+     "type": "int",
+     "static": false,
+     "public": true,
+     "serialized": true
+    }
+   ],
+   "constants": []
+  },
+  {
+   "name": "RarityShiftEvent",
+   "kind": "class",
+   "namespace": "",
+   "base": "DayEventData",
+   "serializable": false,
+   "fields": [
+    {
+     "name": "RoomID",
+     "type": "RoomID",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "Rarity",
+     "type": "int",
+     "static": false,
+     "public": true,
+     "serialized": true
+    }
+   ],
+   "constants": []
+  },
+  {
+   "name": "TimerStartEvent",
+   "kind": "class",
+   "namespace": "",
+   "base": "DayEventData",
+   "serializable": false,
+   "fields": [
+    {
+     "name": "Timer",
+     "type": "TimerID",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "Duration",
+     "type": "int",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "_generatedDurspan",
+     "type": "bool",
+     "static": false,
+     "public": false,
+     "serialized": false
+    },
+    {
+     "name": "_durationTimeSpan",
+     "type": "System.TimeSpan",
+     "static": false,
+     "public": false,
+     "serialized": false
+    }
+   ],
+   "constants": []
+  },
+  {
+   "name": "RoomStats",
+   "kind": "class",
+   "namespace": "",
+   "base": null,
+   "serializable": true,
+   "fields": [
+    {
+     "name": "Rooms",
+     "type": "System.Collections.Generic.List<RoomStatsEntry>",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "Rank_MostDrafted",
+     "type": "System.Collections.Generic.List<RoomStatsEntry>",
+     "static": false,
+     "public": true,
+     "serialized": false
+    },
+    {
+     "name": "Rank_BestDraftRate",
+     "type": "System.Collections.Generic.List<RoomStatsEntry>",
+     "static": false,
+     "public": true,
+     "serialized": false
+    },
+    {
+     "name": "Rank_WorstDraftRate",
+     "type": "System.Collections.Generic.List<RoomStatsEntry>",
+     "static": false,
+     "public": true,
+     "serialized": false
+    },
+    {
+     "name": "Rank_MostGemsSpent",
+     "type": "System.Collections.Generic.List<RoomStatsEntry>",
+     "static": false,
+     "public": true,
+     "serialized": false
+    },
+    {
+     "name": "Rank_MostTimeSpent",
+     "type": "System.Collections.Generic.List<RoomStatsEntry>",
+     "static": false,
+     "public": true,
+     "serialized": false
+    }
+   ],
+   "constants": []
+  },
+  {
+   "name": "ItemStats",
+   "kind": "class",
+   "namespace": "",
+   "base": null,
+   "serializable": true,
+   "fields": [
+    {
+     "name": "Items",
+     "type": "System.Collections.Generic.List<ItemStatsEntry>",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "Rank_MostFound",
+     "type": "System.Collections.Generic.List<ItemStatsEntry>",
+     "static": false,
+     "public": true,
+     "serialized": false
+    },
+    {
+     "name": "Rank_MostChecked",
+     "type": "System.Collections.Generic.List<ItemStatsEntry>",
+     "static": false,
+     "public": true,
+     "serialized": false
+    }
+   ],
+   "constants": []
+  },
+  {
+   "name": "TimerStats",
+   "kind": "class",
+   "namespace": "",
+   "base": null,
+   "serializable": true,
+   "fields": [
+    {
+     "name": "Timers",
+     "type": "System.Collections.Generic.List<TimerEntry>",
+     "static": false,
+     "public": true,
+     "serialized": true
+    }
+   ],
+   "constants": []
+  },
+  {
+   "name": "BookStats",
+   "kind": "class",
+   "namespace": "",
+   "base": null,
+   "serializable": true,
+   "fields": [
+    {
+     "name": "Books",
+     "type": "System.Collections.Generic.List<BookEntry>",
+     "static": false,
+     "public": true,
+     "serialized": true
+    }
+   ],
+   "constants": []
+  },
+  {
+   "name": "EventStats",
+   "kind": "class",
+   "namespace": "",
+   "base": null,
+   "serializable": false,
+   "fields": [
+    {
+     "name": "RegisteredEvents",
+     "type": "System.Collections.Generic.HashSet<EventID>",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "EventsCount",
+     "type": "System.Collections.Generic.Dictionary<EventID, int>",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "ActualEvents",
+     "type": "System.Collections.Generic.Dictionary<EventID, System.Collections.Generic.List<DayEventData>>",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "_totalEventCount",
+     "type": "int",
+     "static": false,
+     "public": false,
+     "serialized": false
+    }
+   ],
+   "constants": []
+  },
+  {
+   "name": "DaysCollection",
+   "kind": "class",
+   "namespace": "",
+   "base": null,
+   "serializable": true,
+   "fields": [
+    {
+     "name": "Days",
+     "type": "System.Collections.Generic.List<DayData>",
+     "static": false,
+     "public": true,
+     "serialized": true
+    }
+   ],
+   "constants": []
+  },
+  {
+   "name": "DayData",
+   "kind": "class",
+   "namespace": "",
+   "base": null,
+   "serializable": true,
+   "fields": [
+    {
+     "name": "Num",
+     "type": "int",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "Status",
+     "type": "DayStatus",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "RoomData",
+     "type": "RoomStats",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "ItemData",
+     "type": "ItemStats",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "DayStats",
+     "type": "DayStatsData",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "DayEvents",
+     "type": "EventStats",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "Timers",
+     "type": "TimerStats",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "Timeline",
+     "type": "DayTimelineData",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "_cachedString",
+     "type": "string",
+     "static": false,
+     "public": false,
+     "serialized": false
+    }
+   ],
+   "constants": []
+  },
+  {
+   "name": "RoomID",
+   "kind": "enum",
+   "namespace": "",
+   "base": "System.Enum",
+   "serializable": false,
+   "fields": [],
+   "constants": [
+    {
+     "name": "None",
+     "value": -1
+    },
+    {
+     "name": "The_Foundation",
+     "value": 1
+    },
+    {
+     "name": "Entrance_Hall",
+     "value": 2
+    },
+    {
+     "name": "Spare_Room",
+     "value": 3
+    },
+    {
+     "name": "Spare_Veranda",
+     "value": 3
+    },
+    {
+     "name": "Servants_Spare_Quarters",
+     "value": 3
+    },
+    {
+     "name": "Spare_Great_Hall",
+     "value": 3
+    },
+    {
+     "name": "Spare_Secret_Passage",
+     "value": 3
+    },
+    {
+     "name": "Spare_Patio",
+     "value": 3
+    },
+    {
+     "name": "Spare_Hall",
+     "value": 3
+    },
+    {
+     "name": "Spare_Bedroom",
+     "value": 3
+    },
+    {
+     "name": "Spare_Terrace",
+     "value": 3
+    },
+    {
+     "name": "Spare_Master_Bedroom",
+     "value": 3
+    },
+    {
+     "name": "Spare_Greenroom",
+     "value": 3
+    },
+    {
+     "name": "Spare_Foyer",
+     "value": 3
+    },
+    {
+     "name": "Her_Ladyships_Spare_Room",
+     "value": 3
+    },
+    {
+     "name": "Rotunda",
+     "value": 4
+    },
+    {
+     "name": "Parlor",
+     "value": 5
+    },
+    {
+     "name": "Billiard_Room",
+     "value": 6
+    },
+    {
+     "name": "Pool_Hall",
+     "value": 6
+    },
+    {
+     "name": "Gallery",
+     "value": 7
+    },
+    {
+     "name": "Room_8",
+     "value": 8
+    },
+    {
+     "name": "Closet",
+     "value": 9
+    },
+    {
+     "name": "Empty_Closet",
+     "value": 9
+    },
+    {
+     "name": "Hallway_Closet",
+     "value": 9
+    },
+    {
+     "name": "Bedroom_Closet",
+     "value": 9
+    },
+    {
+     "name": "Walk_In_Closet",
+     "value": 10
+    },
+    {
+     "name": "Attic",
+     "value": 11
+    },
+    {
+     "name": "Storeroom",
+     "value": 12
+    },
+    {
+     "name": "Nook",
+     "value": 13
+    },
+    {
+     "name": "Reading_Nook",
+     "value": 13
+    },
+    {
+     "name": "Breakfast_Nook",
+     "value": 13
+    },
+    {
+     "name": "Garage",
+     "value": 14
+    },
+    {
+     "name": "Music_Room",
+     "value": 15
+    },
+    {
+     "name": "Locker_Room",
+     "value": 16
+    },
+    {
+     "name": "Den",
+     "value": 17
+    },
+    {
+     "name": "Wine_Cellar",
+     "value": 18
+    },
+    {
+     "name": "Trophy_Room",
+     "value": 19
+    },
+    {
+     "name": "Ballroom",
+     "value": 20
+    },
+    {
+     "name": "Pantry",
+     "value": 21
+    },
+    {
+     "name": "Rumpus_Room",
+     "value": 22
+    },
+    {
+     "name": "Vault",
+     "value": 23
+    },
+    {
+     "name": "Office",
+     "value": 24
+    },
+    {
+     "name": "Drawing_Room",
+     "value": 25
+    },
+    {
+     "name": "Study",
+     "value": 26
+    },
+    {
+     "name": "Library",
+     "value": 27
+    },
+    {
+     "name": "Chamber_of_Mirrors",
+     "value": 28
+    },
+    {
+     "name": "The_Pool",
+     "value": 29
+    },
+    {
+     "name": "Drafting_Studio",
+     "value": 30
+    },
+    {
+     "name": "Utility_Closet",
+     "value": 31
+    },
+    {
+     "name": "Boiler_Room",
+     "value": 32
+    },
+    {
+     "name": "Pump_Room",
+     "value": 33
+    },
+    {
+     "name": "Security",
+     "value": 34
+    },
+    {
+     "name": "Workshop",
+     "value": 35
+    },
+    {
+     "name": "Laboratory",
+     "value": 36
+    },
+    {
+     "name": "Sauan",
+     "value": 37
+    },
+    {
+     "name": "Coat_Check",
+     "value": 38
+    },
+    {
+     "name": "Mail_Room",
+     "value": 39
+    },
+    {
+     "name": "Freezer",
+     "value": 40
+    },
+    {
+     "name": "Dining_Room",
+     "value": 41
+    },
+    {
+     "name": "Observatory",
+     "value": 42
+    },
+    {
+     "name": "Conference_Room",
+     "value": 43
+    },
+    {
+     "name": "Aquarium",
+     "value": 44
+    },
+    {
+     "name": "Starfish_Aquarium",
+     "value": 44
+    },
+    {
+     "name": "Goldfish_Aquarium",
+     "value": 44
+    },
+    {
+     "name": "Electric_Eel_Aquarium",
+     "value": 44
+    },
+    {
+     "name": "Antechamber",
+     "value": 45
+    },
+    {
+     "name": "Room_46",
+     "value": 46
+    },
+    {
+     "name": "Bedroom",
+     "value": 47
+    },
+    {
+     "name": "Boudoir",
+     "value": 48
+    },
+    {
+     "name": "Guest_Bedroom",
+     "value": 49
+    },
+    {
+     "name": "Guess_Bedroom",
+     "value": 49
+    },
+    {
+     "name": "Geist_Bedroom",
+     "value": 49
+    },
+    {
+     "name": "Quest_Bedroom",
+     "value": 49
+    },
+    {
+     "name": "Nursery",
+     "value": 50
+    },
+    {
+     "name": "Indoor_Nursery",
+     "value": 50
+    },
+    {
+     "name": "Nurses_Station",
+     "value": 50
+    },
+    {
+     "name": "Servants_Quarters",
+     "value": 51
+    },
+    {
+     "name": "Bunk_Room",
+     "value": 52
+    },
+    {
+     "name": "Her_Ladyships_Chamber",
+     "value": 53
+    },
+    {
+     "name": "Master_Bedroom",
+     "value": 54
+    },
+    {
+     "name": "Hallway",
+     "value": 55
+    },
+    {
+     "name": "West_Wing_Hall",
+     "value": 56
+    },
+    {
+     "name": "East_Wing_Hall",
+     "value": 57
+    },
+    {
+     "name": "Corridor",
+     "value": 58
+    },
+    {
+     "name": "Passageway",
+     "value": 59
+    },
+    {
+     "name": "Secret_Passage",
+     "value": 60
+    },
+    {
+     "name": "Foyer",
+     "value": 61
+    },
+    {
+     "name": "Great_Hall",
+     "value": 62
+    },
+    {
+     "name": "Terrace",
+     "value": 63
+    },
+    {
+     "name": "Patio",
+     "value": 64
+    },
+    {
+     "name": "Courtyard",
+     "value": 65
+    },
+    {
+     "name": "Corriyard",
+     "value": 65
+    },
+    {
+     "name": "Cloister",
+     "value": 66
+    },
+    {
+     "name": "Cloister_of_Lydia",
+     "value": 66
+    },
+    {
+     "name": "Cloister_of_Rynna",
+     "value": 66
+    },
+    {
+     "name": "Cloister_of_Orinda",
+     "value": 66
+    },
+    {
+     "name": "Cloister_of_Dauja",
+     "value": 66
+    },
+    {
+     "name": "Cloister_of_Veia",
+     "value": 66
+    },
+    {
+     "name": "Cloister_of_Draxus",
+     "value": 66
+    },
+    {
+     "name": "Cloister_of_Mila",
+     "value": 66
+    },
+    {
+     "name": "Cloister_of_Joya",
+     "value": 66
+    },
+    {
+     "name": "Veranda",
+     "value": 67
+    },
+    {
+     "name": "Greenhouse",
+     "value": 68
+    },
+    {
+     "name": "Morning_Room",
+     "value": 69
+    },
+    {
+     "name": "Secret_Garden",
+     "value": 70
+    },
+    {
+     "name": "Commissary",
+     "value": 71
+    },
+    {
+     "name": "Kitchen",
+     "value": 72
+    },
+    {
+     "name": "Locksmith",
+     "value": 73
+    },
+    {
+     "name": "Showroom",
+     "value": 74
+    },
+    {
+     "name": "Laundry_Room",
+     "value": 75
+    },
+    {
+     "name": "Bookshop",
+     "value": 76
+    },
+    {
+     "name": "The_Armory",
+     "value": 77
+    },
+    {
+     "name": "Gift_Shop",
+     "value": 78
+    },
+    {
+     "name": "Lavatory",
+     "value": 79
+    },
+    {
+     "name": "Chapel",
+     "value": 80
+    },
+    {
+     "name": "Maids_Chamber",
+     "value": 81
+    },
+    {
+     "name": "Archives",
+     "value": 82
+    },
+    {
+     "name": "Gymnasium",
+     "value": 83
+    },
+    {
+     "name": "Darkroom",
+     "value": 84
+    },
+    {
+     "name": "Weight_Room",
+     "value": 85
+    },
+    {
+     "name": "Furnace",
+     "value": 86
+    },
+    {
+     "name": "Dovecote",
+     "value": 87
+    },
+    {
+     "name": "The_Kennel",
+     "value": 88
+    },
+    {
+     "name": "Clock_Tower",
+     "value": 89
+    },
+    {
+     "name": "Classroom",
+     "value": 90
+    },
+    {
+     "name": "Solarium",
+     "value": 91
+    },
+    {
+     "name": "Dormitory",
+     "value": 92
+    },
+    {
+     "name": "Vestibule",
+     "value": 93
+    },
+    {
+     "name": "Casino",
+     "value": 94
+    },
+    {
+     "name": "Planetarium",
+     "value": 95
+    },
+    {
+     "name": "Mechanarium",
+     "value": 96
+    },
+    {
+     "name": "Treasure_Trove",
+     "value": 97
+    },
+    {
+     "name": "Throne_Room",
+     "value": 98
+    },
+    {
+     "name": "Lost_and_Found",
+     "value": 99
+    },
+    {
+     "name": "Conservatory",
+     "value": 100
+    },
+    {
+     "name": "Tunnel",
+     "value": 101
+    },
+    {
+     "name": "Closed_Exhibit",
+     "value": 102
+    },
+    {
+     "name": "Toolshed",
+     "value": 103
+    },
+    {
+     "name": "Shelter",
+     "value": 104
+    },
+    {
+     "name": "Schoolhouse",
+     "value": 105
+    },
+    {
+     "name": "Shrine",
+     "value": 106
+    },
+    {
+     "name": "Root_Cellar",
+     "value": 107
+    },
+    {
+     "name": "Hovel",
+     "value": 108
+    },
+    {
+     "name": "Trading_Post",
+     "value": 109
+    },
+    {
+     "name": "Tomb",
+     "value": 110
+    }
+   ]
+  },
+  {
+   "name": "TimerID",
+   "kind": "enum",
+   "namespace": "",
+   "base": "System.Enum",
+   "serializable": true,
+   "fields": [],
+   "constants": [
+    {
+     "name": "Read_Reddington",
+     "value": 0
+    },
+    {
+     "name": "Read_OrindaHistory",
+     "value": 1
+    },
+    {
+     "name": "Read_History_1st",
+     "value": 2
+    },
+    {
+     "name": "Read_CurseBlackBridge",
+     "value": 3
+    },
+    {
+     "name": "Read_NewClue",
+     "value": 4
+    },
+    {
+     "name": "Read_RealmRunes",
+     "value": 5
+    },
+    {
+     "name": "Read_PumpGuide",
+     "value": 6
+    },
+    {
+     "name": "Read_Drafting_1",
+     "value": 7
+    },
+    {
+     "name": "Read_Drafting_2",
+     "value": 8
+    },
+    {
+     "name": "Read_Drafting_3",
+     "value": 9
+    },
+    {
+     "name": "Read_Drafting_4",
+     "value": 10
+    },
+    {
+     "name": "Read_Drafting_5",
+     "value": 11
+    },
+    {
+     "name": "Dirigblocks_Playtime",
+     "value": 500
+    },
+    {
+     "name": "Entrance_Letter",
+     "value": 501
+    },
+    {
+     "name": "Tomb_Letter",
+     "value": 502
+    },
+    {
+     "name": "Red_Prince",
+     "value": 503
+    },
+    {
+     "name": "Archives_Clippings",
+     "value": 504
+    },
+    {
+     "name": "Gardeners_Logbook",
+     "value": 505
+    },
+    {
+     "name": "Swimbird",
+     "value": 506
+    }
+   ]
+  },
+  {
+   "name": "RoomStatsEntry",
+   "kind": "class",
+   "namespace": "",
+   "base": null,
+   "serializable": true,
+   "fields": [
+    {
+     "name": "id",
+     "type": "RoomID",
+     "static": false,
+     "public": false,
+     "serialized": true
+    },
+    {
+     "name": "built",
+     "type": "int",
+     "static": false,
+     "public": false,
+     "serialized": true
+    },
+    {
+     "name": "discarded",
+     "type": "int",
+     "static": false,
+     "public": false,
+     "serialized": true
+    },
+    {
+     "name": "gems",
+     "type": "int",
+     "static": false,
+     "public": false,
+     "serialized": true
+    },
+    {
+     "name": "time",
+     "type": "int",
+     "static": false,
+     "public": false,
+     "serialized": true
+    },
+    {
+     "name": "_generatedTimespan",
+     "type": "bool",
+     "static": false,
+     "public": false,
+     "serialized": false
+    },
+    {
+     "name": "_timeSpan",
+     "type": "System.TimeSpan",
+     "static": false,
+     "public": false,
+     "serialized": false
+    },
+    {
+     "name": "SPLIT_PATTERN",
+     "type": "string",
+     "static": true,
+     "public": false,
+     "serialized": false
+    }
+   ],
+   "constants": []
+  },
+  {
+   "name": "ItemStatsEntry",
+   "kind": "class",
+   "namespace": "",
+   "base": null,
+   "serializable": true,
+   "fields": [
+    {
+     "name": "id",
+     "type": "int",
+     "static": false,
+     "public": false,
+     "serialized": true
+    },
+    {
+     "name": "coat",
+     "type": "int",
+     "static": false,
+     "public": false,
+     "serialized": true
+    }
+   ],
+   "constants": []
+  },
+  {
+   "name": "TimerEntry",
+   "kind": "class",
+   "namespace": "",
+   "base": null,
+   "serializable": true,
+   "fields": [
+    {
+     "name": "Ticking",
+     "type": "bool",
+     "static": false,
+     "public": true,
+     "serialized": false
+    },
+    {
+     "name": "CurrentEvent",
+     "type": "TimerStartEvent",
+     "static": false,
+     "public": true,
+     "serialized": false
+    },
+    {
+     "name": "ID",
+     "type": "TimerID",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "_internalTimer",
+     "type": "float",
+     "static": false,
+     "public": false,
+     "serialized": false
+    },
+    {
+     "name": "Time",
+     "type": "int",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "_generatedTimespan",
+     "type": "bool",
+     "static": false,
+     "public": false,
+     "serialized": false
+    },
+    {
+     "name": "_timeSpan",
+     "type": "System.TimeSpan",
+     "static": false,
+     "public": false,
+     "serialized": false
+    }
+   ],
+   "constants": []
+  },
+  {
+   "name": "BookEntry",
+   "kind": "class",
+   "namespace": "",
+   "base": null,
+   "serializable": true,
+   "fields": [
+    {
+     "name": "ID",
+     "type": "BookID",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "DaysChecked",
+     "type": "System.Collections.Generic.List<int>",
+     "static": false,
+     "public": true,
+     "serialized": true
+    }
+   ],
+   "constants": []
+  },
+  {
+   "name": "EventID",
+   "kind": "enum",
+   "namespace": "",
+   "base": "System.Enum",
+   "serializable": true,
+   "fields": [],
+   "constants": [
+    {
+     "name": "Null",
+     "value": 0
+    },
+    {
+     "name": "Dark_Room_Lit",
+     "value": 1
+    },
+    {
+     "name": "Garage_Opened",
+     "value": 2
+    },
+    {
+     "name": "West_Path_Gate_Unlocked",
+     "value": 3
+    },
+    {
+     "name": "Gemstone_Cavern_Unlocked",
+     "value": 4
+    },
+    {
+     "name": "Orchard_Unlocked",
+     "value": 5
+    },
+    {
+     "name": "Microchip_1_Found",
+     "value": 6
+    },
+    {
+     "name": "Microchip_2_Found",
+     "value": 7
+    },
+    {
+     "name": "Cabinet_key_1_found",
+     "value": 8
+    },
+    {
+     "name": "Cabinet_key_2_found",
+     "value": 9
+    },
+    {
+     "name": "Cabinet_1_opened",
+     "value": 10
+    },
+    {
+     "name": "Cabinet_2_opened",
+     "value": 11
+    },
+    {
+     "name": "Satellite_Raised",
+     "value": 12
+    },
+    {
+     "name": "Boudoir_Safe_Opened",
+     "value": 13
+    },
+    {
+     "name": "Drawing_Room_Safe_Opened",
+     "value": 14
+    },
+    {
+     "name": "Study_Safe_Opened",
+     "value": 15
+    },
+    {
+     "name": "Office_Safe_Opened",
+     "value": 16
+    },
+    {
+     "name": "Shelter_Safe_Opened",
+     "value": 17
+    },
+    {
+     "name": "Drafting_Studio_Safe_Opened",
+     "value": 18
+    },
+    {
+     "name": "Mayait_Opened",
+     "value": 19
+    },
+    {
+     "name": "Boiler_Solved",
+     "value": 20
+    },
+    {
+     "name": "Blackbridge_Powered",
+     "value": 21
+    },
+    {
+     "name": "Blackbridge_Admin_Login",
+     "value": 22
+    },
+    {
+     "name": "Blackbridge_Full_Access",
+     "value": 23
+    },
+    {
+     "name": "Well_Drained",
+     "value": 24
+    },
+    {
+     "name": "Pool_Drained",
+     "value": 25
+    },
+    {
+     "name": "Secret_Garden_Found",
+     "value": 26
+    },
+    {
+     "name": "Foundation_Drafted",
+     "value": 27
+    },
+    {
+     "name": "Foundation_Elevator_Lowered",
+     "value": 28
+    },
+    {
+     "name": "Basement_Door_Unlocked",
+     "value": 29
+    },
+    {
+     "name": "Basement_Puzzle_Solved",
+     "value": 30
+    },
+    {
+     "name": "Gas_Orchard",
+     "value": 31
+    },
+    {
+     "name": "Gas_Gemstone",
+     "value": 32
+    },
+    {
+     "name": "Gas_Hovel",
+     "value": 33
+    },
+    {
+     "name": "Gas_Schoolhouse",
+     "value": 34
+    },
+    {
+     "name": "Chess_Solved",
+     "value": 35
+    },
+    {
+     "name": "Chess_Selection",
+     "value": 36
+    },
+    {
+     "name": "Basement_Wall_Knocked",
+     "value": 37
+    },
+    {
+     "name": "Secret_Garden_Knocked",
+     "value": 38
+    },
+    {
+     "name": "Greenhouse_Knocked",
+     "value": 39
+    },
+    {
+     "name": "Weight_Room_Knocked",
+     "value": 40
+    },
+    {
+     "name": "Cliffside_Knocked",
+     "value": 41
+    },
+    {
+     "name": "Gemstone_Jack_mined",
+     "value": 42
+    },
+    {
+     "name": "Gemstone_Collapse",
+     "value": 43
+    },
+    {
+     "name": "Natural_Order_Opened",
+     "value": 44
+    },
+    {
+     "name": "Reservoir_Drained",
+     "value": 45
+    },
+    {
+     "name": "Secret_Garden_Key_Found",
+     "value": 46
+    },
+    {
+     "name": "Network_Password_Accepted",
+     "value": 47
+    },
+    {
+     "name": "Keeper_smashed",
+     "value": 48
+    },
+    {
+     "name": "Antechamber_entered",
+     "value": 49
+    },
+    {
+     "name": "Boat_ride",
+     "value": 50
+    },
+    {
+     "name": "Radiation_unlock",
+     "value": 51
+    },
+    {
+     "name": "Upgrade_Disk_MasterBedroom_found",
+     "value": 100
+    },
+    {
+     "name": "Upgrade_Disk_MorningRoom_found",
+     "value": 101
+    },
+    {
+     "name": "Upgrade_Disk_Foundation_found",
+     "value": 102
+    },
+    {
+     "name": "Upgrade_Disk_Cloister_found",
+     "value": 103
+    },
+    {
+     "name": "Upgrade_Disk_Mechanarium_found",
+     "value": 104
+    },
+    {
+     "name": "Upgrade_Disk_Freezer_found",
+     "value": 105
+    },
+    {
+     "name": "Upgrade_Disk_TorchRoom_found",
+     "value": 106
+    },
+    {
+     "name": "Upgrade_Disk_TradingPost_found",
+     "value": 107
+    },
+    {
+     "name": "Upgrade_Disk_LostFound_found",
+     "value": 108
+    },
+    {
+     "name": "Upgrade_Disk_GreatHall_found",
+     "value": 109
+    },
+    {
+     "name": "Upgrade_Disk_Garage_found",
+     "value": 110
+    },
+    {
+     "name": "Upgrade_Disk_Vault_found",
+     "value": 111
+    },
+    {
+     "name": "Upgrade_Disk_BootLeg_found",
+     "value": 112
+    },
+    {
+     "name": "Upgrade_Disk_Commissary_found",
+     "value": 113
+    },
+    {
+     "name": "Upgrade_Disk_Office_found",
+     "value": 114
+    },
+    {
+     "name": "Upgrade_Disk_Archives_found",
+     "value": 115
+    },
+    {
+     "name": "Upgrade_Disk_Room_StoreRoom_used",
+     "value": 200
+    },
+    {
+     "name": "Upgrade_Disk_Room_SpareRoom_used",
+     "value": 201
+    },
+    {
+     "name": "Upgrade_Disk_Room_SpareRoom2_used",
+     "value": 202
+    },
+    {
+     "name": "Upgrade_Disk_Room_Courtyard_used",
+     "value": 203
+    },
+    {
+     "name": "Upgrade_Disk_Room_MailRoom_used",
+     "value": 204
+    },
+    {
+     "name": "Upgrade_Disk_Room_BunkRoom_used",
+     "value": 205
+    },
+    {
+     "name": "Upgrade_Disk_Room_Closet_used",
+     "value": 206
+    },
+    {
+     "name": "Upgrade_Disk_Room_Hallway_used",
+     "value": 207
+    },
+    {
+     "name": "Upgrade_Disk_Room_Boudoir_used",
+     "value": 208
+    },
+    {
+     "name": "Upgrade_Disk_Room_Parlor_used",
+     "value": 209
+    },
+    {
+     "name": "Upgrade_Disk_Room_BilliardRoom_used",
+     "value": 210
+    },
+    {
+     "name": "Upgrade_Disk_Room_GuestBedroom_used",
+     "value": 211
+    },
+    {
+     "name": "Upgrade_Disk_Room_Nursery_used",
+     "value": 212
+    },
+    {
+     "name": "Upgrade_Disk_Room_Aquarium_used",
+     "value": 213
+    },
+    {
+     "name": "Upgrade_Disk_Room_Nook_used",
+     "value": 214
+    },
+    {
+     "name": "Upgrade_Disk_Room_Cloister_used",
+     "value": 215
+    },
+    {
+     "name": "Vault_149_opened",
+     "value": 300
+    },
+    {
+     "name": "Vault_233_opened",
+     "value": 301
+    },
+    {
+     "name": "Vault_304_opened",
+     "value": 302
+    },
+    {
+     "name": "Vault_370_opened",
+     "value": 303
+    },
+    {
+     "name": "Conservatory_Floorplan_Found",
+     "value": 400
+    },
+    {
+     "name": "Planetarium_Floorplan_Found",
+     "value": 401
+    },
+    {
+     "name": "Lost_and_Found_Floorplan_Found",
+     "value": 402
+    },
+    {
+     "name": "Treasure_Trove_Floorplan_Found",
+     "value": 403
+    },
+    {
+     "name": "Throne_Room_Floorplan_Found",
+     "value": 404
+    },
+    {
+     "name": "Mechanarium_Floorplan_Found",
+     "value": 405
+    },
+    {
+     "name": "Tunnel_Floorplan_Found",
+     "value": 406
+    },
+    {
+     "name": "Closed_Exhibit_Floorplan_Found",
+     "value": 407
+    },
+    {
+     "name": "Dovecote_Added",
+     "value": 500
+    },
+    {
+     "name": "Kennel_Added",
+     "value": 501
+    },
+    {
+     "name": "Casino_Added",
+     "value": 502
+    },
+    {
+     "name": "Clocktower_Added",
+     "value": 503
+    },
+    {
+     "name": "Classroom_Added",
+     "value": 504
+    },
+    {
+     "name": "Solarium_Added",
+     "value": 505
+    },
+    {
+     "name": "Vestibule_Added",
+     "value": 506
+    },
+    {
+     "name": "Dormitory_Added",
+     "value": 507
+    },
+    {
+     "name": "Tomb_Solved",
+     "value": 508
+    },
+    {
+     "name": "Catacombs_Opened",
+     "value": 509
+    },
+    {
+     "name": "Chapel_Lit",
+     "value": 510
+    },
+    {
+     "name": "Tomb_Room_Lit",
+     "value": 511
+    },
+    {
+     "name": "Torch_Chamber_Lit",
+     "value": 512
+    },
+    {
+     "name": "Epsen_Tomb_Lit",
+     "value": 513
+    },
+    {
+     "name": "Freezer_Lit",
+     "value": 514
+    },
+    {
+     "name": "Paper_Crown_Obtained",
+     "value": 515
+    },
+    {
+     "name": "Gallery_5_solved",
+     "value": 600
+    },
+    {
+     "name": "Gallery_6_solved",
+     "value": 601
+    },
+    {
+     "name": "Gallery_7_solved",
+     "value": 602
+    },
+    {
+     "name": "Gallery_8_solved",
+     "value": 603
+    },
+    {
+     "name": "Room_8_reached",
+     "value": 604
+    },
+    {
+     "name": "Room_46_solved",
+     "value": 605
+    },
+    {
+     "name": "Laundry_KeysToGems",
+     "value": 606
+    },
+    {
+     "name": "Laundry_KeysToCoins",
+     "value": 607
+    },
+    {
+     "name": "Servants_drafted",
+     "value": 608
+    },
+    {
+     "name": "Servants_note_read",
+     "value": 609
+    },
+    {
+     "name": "Hidden_riddle_found",
+     "value": 610
+    },
+    {
+     "name": "Upper_gear_reached",
+     "value": 611
+    },
+    {
+     "name": "Laundry_GemsToCoins",
+     "value": 612
+    },
+    {
+     "name": "Laundry_Shoeshine",
+     "value": 613
+    },
+    {
+     "name": "Laundry_StarTreatment",
+     "value": 614
+    },
+    {
+     "name": "Laundry_DieCleaning",
+     "value": 615
+    },
+    {
+     "name": "Room_46_reached",
+     "value": 616
+    },
+    {
+     "name": "Sanctum_Key_Found_Safehouse",
+     "value": 700
+    },
+    {
+     "name": "Sanctum_Key_Found_clocktower",
+     "value": 701
+    },
+    {
+     "name": "Sanctum_Key_Found_Room_46",
+     "value": 702
+    },
+    {
+     "name": "Sanctum_Key_Found_Resevoir",
+     "value": 703
+    },
+    {
+     "name": "Sanctum_Key_Found_Throne_Room",
+     "value": 704
+    },
+    {
+     "name": "Sanctum_Key_Found_Vault",
+     "value": 705
+    },
+    {
+     "name": "Sanctum_Key_Found_Music_Room",
+     "value": 706
+    },
+    {
+     "name": "Sanctum_Key_Found_Mechanarium",
+     "value": 707
+    },
+    {
+     "name": "Sanctum_Key_Used",
+     "value": 708
+    },
+    {
+     "name": "Sigil_Solved_Orinda_Aries",
+     "value": 800
+    },
+    {
+     "name": "Sigil_Solved_Fenn_Aries",
+     "value": 801
+    },
+    {
+     "name": "Sigil_Solved_Arch_Aries",
+     "value": 802
+    },
+    {
+     "name": "Sigil_Solved_Eraja",
+     "value": 803
+    },
+    {
+     "name": "Sigil_Solved_Nuance",
+     "value": 804
+    },
+    {
+     "name": "Sigil_Solved_Mora_Jai",
+     "value": 805
+    },
+    {
+     "name": "Sigil_Solved_Verra",
+     "value": 806
+    },
+    {
+     "name": "Sigil_Solved_Corarica",
+     "value": 807
+    },
+    {
+     "name": "Full_House_trophy",
+     "value": 900
+    },
+    {
+     "name": "Explorers_trophy",
+     "value": 901
+    },
+    {
+     "name": "Bullseye_trophy",
+     "value": 902
+    },
+    {
+     "name": "A_logical_trophy",
+     "value": 903
+    },
+    {
+     "name": "Dirigitrophy",
+     "value": 904
+    },
+    {
+     "name": "Trophy_of_sigils",
+     "value": 905
+    },
+    {
+     "name": "Trophy_8",
+     "value": 906
+    },
+    {
+     "name": "Trophy_of_wealth",
+     "value": 907
+    },
+    {
+     "name": "Diploma_trophy",
+     "value": 908
+    },
+    {
+     "name": "Inheritance_trophy",
+     "value": 909
+    },
+    {
+     "name": "Dare_mode_victory",
+     "value": 910
+    },
+    {
+     "name": "Curse_mode_victory",
+     "value": 911
+    },
+    {
+     "name": "Day_one_victory",
+     "value": 912
+    },
+    {
+     "name": "Trophy_of_trophies",
+     "value": 913
+    },
+    {
+     "name": "Trophy_of_invention",
+     "value": 914
+    },
+    {
+     "name": "Normal_victory",
+     "value": 915
+    },
+    {
+     "name": "Speed_victory",
+     "value": 916
+    },
+    {
+     "name": "Rank_5_Reached",
+     "value": 917
+    },
+    {
+     "name": "Rank_8_Reached",
+     "value": 918
+    },
+    {
+     "name": "Rank_9_Reached",
+     "value": 919
+    },
+    {
+     "name": "Rank_10_Reached",
+     "value": 920
+    },
+    {
+     "name": "Furnace_event",
+     "value": 1000
+    },
+    {
+     "name": "Diary_Unlock",
+     "value": 1001
+    },
+    {
+     "name": "Chamber_of_Mirrors_Solved",
+     "value": 1002
+    },
+    {
+     "name": "Alzara_1",
+     "value": 1003
+    },
+    {
+     "name": "Alzara_2",
+     "value": 1004
+    },
+    {
+     "name": "Alzara_3",
+     "value": 1005
+    },
+    {
+     "name": "Alzara_4",
+     "value": 1006
+    },
+    {
+     "name": "Alzara_5",
+     "value": 1007
+    },
+    {
+     "name": "Alzara_6",
+     "value": 1008
+    },
+    {
+     "name": "Shrine_cursed",
+     "value": 1009
+    },
+    {
+     "name": "Effigy_found",
+     "value": 1010
+    },
+    {
+     "name": "Sweepstakes_Winner",
+     "value": 1011
+    },
+    {
+     "name": "Monk_note_found",
+     "value": 1012
+    },
+    {
+     "name": "Trophy_list_Looked_at",
+     "value": 1013
+    },
+    {
+     "name": "Music_Sheet_B",
+     "value": 1014
+    },
+    {
+     "name": "Music_Sheet_G",
+     "value": 1015
+    },
+    {
+     "name": "Music_Sheet_M",
+     "value": 1016
+    },
+    {
+     "name": "Music_Sheet_W",
+     "value": 1017
+    },
+    {
+     "name": "Throne_Room_Event",
+     "value": 1018
+    },
+    {
+     "name": "Foundation_note_found",
+     "value": 1019
+    },
+    {
+     "name": "Master_Key_Purchased",
+     "value": 1100
+    },
+    {
+     "name": "Emerald_Bracelet_Purchased",
+     "value": 1101
+    },
+    {
+     "name": "Ornate_Compass_Purchased",
+     "value": 1102
+    },
+    {
+     "name": "Chronograph_Purchased",
+     "value": 1103
+    },
+    {
+     "name": "Silver_Spoon_Purchased",
+     "value": 1104
+    },
+    {
+     "name": "Moon_Pendant_Purchased",
+     "value": 1105
+    },
+    {
+     "name": "A_New_Clue_Purchased",
+     "value": 1106
+    },
+    {
+     "name": "Curse_of_Blackbridge_Purchased",
+     "value": 1107
+    },
+    {
+     "name": "Realm_and_Rune_Purchased",
+     "value": 1108
+    },
+    {
+     "name": "History_1st_Edition_Purchased",
+     "value": 1109
+    },
+    {
+     "name": "Drafting_Strategy_vol_5_Purchased",
+     "value": 1110
+    },
+    {
+     "name": "Drafting_Strategy_vol_6_purchased",
+     "value": 1111
+    },
+    {
+     "name": "Antechamber_Lever_Pulled_GreenHouse",
+     "value": 1200
+    },
+    {
+     "name": "Antechamber_Lever_Pulled_GreatHall",
+     "value": 1201
+    },
+    {
+     "name": "Antechamber_Lever_Pulled_Mechanarium",
+     "value": 1202
+    },
+    {
+     "name": "Antechamber_Lever_Pulled_WeightRoom",
+     "value": 1203
+    },
+    {
+     "name": "Antechamber_Lever_Pulled_SecretGarden",
+     "value": 1204
+    },
+    {
+     "name": "Antechamber_Lever_Pulled_SecretGarden2",
+     "value": 1205
+    },
+    {
+     "name": "Antechamber_Lever_Pulled_Sanctum",
+     "value": 1206
+    },
+    {
+     "name": "Antechamber_Lever_Pulled_ThroneRoom",
+     "value": 1207
+    },
+    {
+     "name": "Crafted_PowerHammer",
+     "value": 1300
+    },
+    {
+     "name": "Crafted_JackHammer",
+     "value": 1301
+    },
+    {
+     "name": "Crafted_LuckyPurse",
+     "value": 1302
+    },
+    {
+     "name": "Crafted_DowsingRod",
+     "value": 1303
+    },
+    {
+     "name": "Crafted_Electromagnet",
+     "value": 1304
+    },
+    {
+     "name": "Crafted_PicksoundAmplified",
+     "value": 1305
+    },
+    {
+     "name": "Crafted_DetectorShovel",
+     "value": 1306
+    },
+    {
+     "name": "Crafted_BurningGlass",
+     "value": 1307
+    },
+    {
+     "name": "Pickup_MagGlass",
+     "value": 1400
+    },
+    {
+     "name": "Chess_Selection_Pawn",
+     "value": 1500
+    },
+    {
+     "name": "Chess_Selection_Knight",
+     "value": 1501
+    },
+    {
+     "name": "Chess_Selection_Bishop",
+     "value": 1502
+    },
+    {
+     "name": "Chess_Selection_Rook",
+     "value": 1503
+    },
+    {
+     "name": "Chess_Selection_Queen",
+     "value": 1504
+    },
+    {
+     "name": "Chess_Selection_King",
+     "value": 1505
+    },
+    {
+     "name": "Drafted_Room",
+     "value": 2000
+    },
+    {
+     "name": "Drafted_Room_Extern",
+     "value": 2001
+    },
+    {
+     "name": "Coat_Check",
+     "value": 2002
+    },
+    {
+     "name": "Rarity_Shift",
+     "value": 2003
+    },
+    {
+     "name": "Timer_Start",
+     "value": 3000
+    }
+   ]
+  },
+  {
+   "name": "DayEventData",
+   "kind": "class",
+   "namespace": "",
+   "base": null,
+   "serializable": true,
+   "fields": [
+    {
+     "name": "E",
+     "type": "EventID",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "T",
+     "type": "int",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "_generatedTimespan",
+     "type": "bool",
+     "static": false,
+     "public": false,
+     "serialized": false
+    },
+    {
+     "name": "_timeSpan",
+     "type": "System.TimeSpan",
+     "static": false,
+     "public": false,
+     "serialized": false
+    },
+    {
+     "name": "_lastStringHash",
+     "type": "int",
+     "static": false,
+     "public": false,
+     "serialized": false
+    },
+    {
+     "name": "_cachedString",
+     "type": "string",
+     "static": false,
+     "public": false,
+     "serialized": false
+    },
+    {
+     "name": "SPLIT_PATTERN",
+     "type": "string",
+     "static": true,
+     "public": false,
+     "serialized": false
+    },
+    {
+     "name": "_unimportantEvents",
+     "type": "EventID[]",
+     "static": true,
+     "public": false,
+     "serialized": false
+    }
+   ],
+   "constants": []
+  },
+  {
+   "name": "DayStatus",
+   "kind": "enum",
+   "namespace": "",
+   "base": "System.Enum",
+   "serializable": true,
+   "fields": [],
+   "constants": [
+    {
+     "name": "None",
+     "value": 0
+    },
+    {
+     "name": "Started",
+     "value": 1
+    },
+    {
+     "name": "Completed",
+     "value": 2
+    }
+   ]
+  },
+  {
+   "name": "DayStatsData",
+   "kind": "class",
+   "namespace": "",
+   "base": null,
+   "serializable": true,
+   "fields": [
+    {
+     "name": "RoomsNumber",
+     "type": "int",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "RankReached",
+     "type": "int",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "StepsUsed",
+     "type": "int",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "ItemsFound",
+     "type": "int",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "NewRoomsDrafted",
+     "type": "int",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "ClassNums",
+     "type": "int",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "StepsLeft",
+     "type": "int",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "KeysLeft",
+     "type": "int",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "GemsLeft",
+     "type": "int",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "GoldLeft",
+     "type": "int",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "IvDicesLeft",
+     "type": "int",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "CoatCheckItem",
+     "type": "int",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "Blessing",
+     "type": "BlessingType",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "BlessingCoins",
+     "type": "int",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "SUCCESS_STRING",
+     "type": "string",
+     "static": true,
+     "public": false,
+     "serialized": false
+    },
+    {
+     "name": "FAILED_STRING",
+     "type": "string",
+     "static": true,
+     "public": false,
+     "serialized": false
+    },
+    {
+     "name": "IGNORED_STRING",
+     "type": "string",
+     "static": true,
+     "public": false,
+     "serialized": false
+    },
+    {
+     "name": "ParlorsPuzzlesCorrect",
+     "type": "int",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "ParlorsPuzzlesIncorrect",
+     "type": "int",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "DartsSolved",
+     "type": "int",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "DartsPuzzleTried",
+     "type": "bool",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "CasinoBalance",
+     "type": "int",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "PurchasesKitchen",
+     "type": "int",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "PurchasesCommissary",
+     "type": "int",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "PurchasesLocksmith",
+     "type": "int",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "Trades",
+     "type": "int",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "RedrawsCount",
+     "type": "int",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "IvDicesUsed",
+     "type": "int",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "Stars",
+     "type": "int",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "Allowance",
+     "type": "int",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "LabLetters",
+     "type": "int",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "MechaDoorsOpen",
+     "type": "int",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "CloisterSuccess",
+     "type": "int",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "SecretPassColor",
+     "type": "RoomColorID",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "ExamScore",
+     "type": "int",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "ExamColors",
+     "type": "int",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "ExamScience",
+     "type": "int",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "ExamArt",
+     "type": "int",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "ExamAlgebra",
+     "type": "int",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "ExamMath",
+     "type": "int",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "ExamGeography",
+     "type": "int",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "ExamHistory",
+     "type": "int",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "ExamErajan",
+     "type": "int",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "SpecialOrder",
+     "type": "SpecialOrderID",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "LastRoom",
+     "type": "RoomID",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "LabTriggers",
+     "type": "int",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "LabExperimentCause",
+     "type": "string",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "LabExperimentEffect",
+     "type": "string",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "CasinoSlotBalance",
+     "type": "int",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "OuterRoom",
+     "type": "RoomID",
+     "static": false,
+     "public": true,
+     "serialized": true
+    }
+   ],
+   "constants": []
+  },
+  {
+   "name": "DayTimelineData",
+   "kind": "class",
+   "namespace": "",
+   "base": null,
+   "serializable": true,
+   "fields": [
+    {
+     "name": "Duration",
+     "type": "int",
+     "static": false,
+     "public": true,
+     "serialized": true
+    },
+    {
+     "name": "Events",
+     "type": "System.Collections.Generic.List<DayEventData>",
+     "static": false,
+     "public": true,
+     "serialized": false
+    },
+    {
+     "name": "_rawEvents",
+     "type": "System.Collections.Generic.List<string>",
+     "static": false,
+     "public": false,
+     "serialized": true
+    }
+   ],
+   "constants": []
+  },
+  {
+   "name": "BookID",
+   "kind": "enum",
+   "namespace": "",
+   "base": "System.Enum",
+   "serializable": true,
+   "fields": [],
+   "constants": [
+    {
+     "name": "Reddington",
+     "value": 0
+    },
+    {
+     "name": "OrindaHistory",
+     "value": 1
+    },
+    {
+     "name": "History_1st",
+     "value": 2
+    },
+    {
+     "name": "CurseBlackBridge",
+     "value": 3
+    },
+    {
+     "name": "NewClue",
+     "value": 4
+    },
+    {
+     "name": "RealmRunes",
+     "value": 5
+    },
+    {
+     "name": "PumpGuide",
+     "value": 6
+    },
+    {
+     "name": "Swim_bird",
+     "value": 7
+    },
+    {
+     "name": "Fixed_stars",
+     "value": 8
+    },
+    {
+     "name": "Drafting_3",
+     "value": 9
+    },
+    {
+     "name": "Drafting_4",
+     "value": 10
+    },
+    {
+     "name": "Drafting_5",
+     "value": 11
+    }
+   ]
+  },
+  {
+   "name": "BlessingType",
+   "kind": "enum",
+   "namespace": "",
+   "base": "System.Enum",
+   "serializable": false,
+   "fields": [],
+   "constants": [
+    {
+     "name": "None",
+     "value": 0
+    },
+    {
+     "name": "Wraith",
+     "value": 1
+    },
+    {
+     "name": "General",
+     "value": 2
+    },
+    {
+     "name": "Highroller",
+     "value": 3
+    },
+    {
+     "name": "Berrypicker",
+     "value": 4
+    },
+    {
+     "name": "Chef",
+     "value": 5
+    },
+    {
+     "name": "Monk",
+     "value": 6
+    },
+    {
+     "name": "Gardener",
+     "value": 7
+    },
+    {
+     "name": "Clockmaker",
+     "value": 8
+    }
+   ]
+  },
+  {
+   "name": "RoomColorID",
+   "kind": "enum",
+   "namespace": "",
+   "base": "System.Enum",
+   "serializable": false,
+   "fields": [],
+   "constants": [
+    {
+     "name": "None",
+     "value": 0
+    },
+    {
+     "name": "Violet",
+     "value": 1
+    },
+    {
+     "name": "Red",
+     "value": 2
+    },
+    {
+     "name": "Gold",
+     "value": 3
+    },
+    {
+     "name": "Green",
+     "value": 4
+    },
+    {
+     "name": "Orange",
+     "value": 5
+    }
+   ]
+  },
+  {
+   "name": "SpecialOrderID",
+   "kind": "enum",
+   "namespace": "",
+   "base": "System.Enum",
+   "serializable": false,
+   "fields": [],
+   "constants": [
+    {
+     "name": "None",
+     "value": 0
+    },
+    {
+     "name": "Compass",
+     "value": 1
+    },
+    {
+     "name": "Mag_Glass",
+     "value": 2
+    },
+    {
+     "name": "Metal_Detector",
+     "value": 3
+    },
+    {
+     "name": "Running_Shoes",
+     "value": 4
+    },
+    {
+     "name": "Shovel",
+     "value": 5
+    },
+    {
+     "name": "Sleep_Mask",
+     "value": 6
+    },
+    {
+     "name": "Sledge",
+     "value": 7
+    }
+   ]
+  }
+ ]
+}

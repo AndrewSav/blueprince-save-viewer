@@ -2,6 +2,8 @@
 
 Drop a Blue Prince save on the page and read what is in it. A save holds tens of thousands of values across its slots, each one a bare PlayMaker variable name with no explanation, so the point of this is to say what they mean rather than merely print them.
 
+**Use it at <https://andrewsav.github.io/blueprince-save-viewer>.**
+
 **Everything runs in the browser.** The file is read locally and never uploaded: whatever serves the page only serves static files, and the page sends nothing back. The whole pipeline is browser-native — `crypto.subtle` for AES-128-CBC and PBKDF2-HMAC-SHA1, `DecompressionStream("deflate-raw")` for the compressed statistics blob — so there is no build step and no dependencies.
 
 ## Running it
@@ -50,9 +52,9 @@ Each file records the `game_version` it describes, and every save records the bu
 
 **That version is the game's internal build id** — PlayerSettings `bundleVersion`, such as `1.1.10.29`. It deliberately does not resemble the published patch number, and nothing in the game displays it; MelonLoader prints it at start-up when its console is enabled. So it never appears unexplained: the header's (i) says what it is, and the `SaveFileInfo` line says whether it matches the build that wrote the save you opened, which is the only thing the number is actually for.
 
-## Confidence
+## How it explains a save
 
-Every field's meaning has been traced by reading the code that uses it. A field a later game build adds carries a tag until it is traced too, saying how much is known about it: *unknown*, *unconfirmed* (guessed from its name) or *by family* (taken from the fields its name matches).
+**Every field's meaning has been traced** by reading the code that uses it. A field a later game build adds carries a tag until it is traced too, saying how much is known about it: *unknown*, *unconfirmed* (guessed from its name) or *by family* (taken from the fields its name matches).
 
 **Dormant fields are not shown** — those nothing in the game writes or only ever sets back to its starting value, those whose writers can never change them, and those nothing reads. The data marks each of them `dormant`, from the game's own code. A field nothing reads is hidden whatever it holds: the value is dead weight. Any other dormant field should only ever hold its default, so when the loaded save holds something else the save and the viewer's model disagree: the value is shown whatever the toggle says, not muted, with its "dormant" tag and a "!" mark whose popup says that this save's value does not match the model. Going over them is a debugging job, so the toggle that shows them appears only in debug mode, which Ctrl-click (Cmd-click on a Mac) on the page title turns on or off; a "debug" mark by the title says it is on. The browser remembers debug mode, the toggle's setting and the fact-sheet switch (localStorage), and outside debug mode neither setting has any effect. The toggle sits in the middle of the privacy line at the top, because it changes the common block as well as the page, and says how many dormant values it hides there and on the page shown. Once shown, each is muted and, on the pages, carries a dashed "dormant" tag whose popup gives the reason; the file block's short CurrentSave line goes without the tags, where flipping the toggle shows at a glance which facts come and go, and only a value the model says it cannot hold carries the "!" mark there.
 
